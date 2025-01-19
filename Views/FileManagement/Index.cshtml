@@ -1,0 +1,53 @@
+﻿@model List<FileModel>
+
+<h2>Dosya Yönetimi</h2>
+
+<!-- Başarı ve Hata Mesajları -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<!-- Dosyaların Listelenmesi -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>Dosya Adı</th>
+            <th>Dosya Boyutu (KB)</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var file in Model)
+        {
+            <tr>
+                <td>@file.FileName</td>
+                <td>@(file.FileSize / 1024)</td>
+                <td>
+                    <form method="post" asp-action="DeleteFile" asp-route-fileName="@file.FileName">
+                        <button type="submit" class="btn btn-danger">Sil</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Dosya Yükleme Formu -->
+<h3>Yeni Dosya Yükle</h3>
+<form method="post" enctype="multipart/form-data" asp-action="UploadFile">
+    <div class="form-group">
+        <label for="file">Dosya Seç</label>
+        <input type="file" name="file" id="file" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Yükle</button>
+</form>

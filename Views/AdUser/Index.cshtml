@@ -1,0 +1,31 @@
+﻿@model List<SystemPanel.Models.AdUser>
+
+<h2>Active Directory Kullanıcıları</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Kullanıcı Adı</th>
+            <th>Görünen Ad</th>
+            <th>Email</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.DisplayName</td>
+                <td>@user.Email</td>
+                <td>
+                    <a href="@Url.Action("Edit", "AdUser", new { userName = user.UserName })" class="btn btn-primary">Düzenle</a>
+                    <form method="post" action="@Url.Action("Delete", "AdUser")" style="display:inline;">
+                        <input type="hidden" name="userName" value="@user.UserName" />
+                        <button type="submit" class="btn btn-danger">Sil</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

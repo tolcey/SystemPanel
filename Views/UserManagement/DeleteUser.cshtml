@@ -1,0 +1,20 @@
+﻿@model SystemPanel.ViewModels.User.DeleteUserViewModel
+
+@{
+    ViewData["Title"] = "Kullanıcı Sil";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="alert alert-danger" role="alert">
+    <h4 class="alert-heading">Kullanıcıyı Silmek Üzeresiniz!</h4>
+    <p>@Model.UserName adlı kullanıcıyı silmek üzeresiniz. Bu işlem geri alınamaz.</p>
+    <hr>
+    <p class="mb-0">Devam etmek istediğinizden emin misiniz?</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Evet, Sil</button>
+    <a href="/users" class="btn btn-secondary">İptal</a>
+</form>

@@ -1,0 +1,26 @@
+﻿@model SystemPanel.ViewModels.Server.CreateServerViewModel
+
+@{
+    ViewData["Title"] = "Yeni Sunucu Ekle";
+}
+
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label for="ServerName" class="form-label">Sunucu Adı</label>
+        <input asp-for="ServerName" class="form-control" id="ServerName" />
+        <span asp-validation-for="ServerName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Status" class="form-label">Durum</label>
+        <select asp-for="Status" class="form-select" id="Status">
+            <option value="Online">Çevrimiçi</option>
+            <option value="Offline">Çevrimdışı</option>
+        </select>
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Ekle</button>
+    <a href="/servers" class="btn btn-secondary">İptal</a>
+</form>

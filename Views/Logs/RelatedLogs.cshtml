@@ -1,0 +1,28 @@
+﻿@model SystemPanel.ViewModels.Logs.RelatedLogsViewModel
+
+<h2>İlgili Loglar</h2>
+<h4>Şu Log:</h4>
+<p><strong>Mesaj:</strong> @Model.CurrentLog.Message</p>
+<p><strong>Kullanıcı:</strong> @Model.CurrentLog.User</p>
+<p><strong>IP:</strong> @Model.CurrentLog.IP</p>
+
+<h4>Benzer Loglar</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tarih</th>
+            <th>Seviye</th>
+            <th>Mesaj</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model.RelatedLogs)
+        {
+            <tr>
+                <td>@log.Timestamp.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@log.Level</td>
+                <td>@log.Message</td>
+            </tr>
+        }
+    </tbody>
+</table>

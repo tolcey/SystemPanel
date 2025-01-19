@@ -1,0 +1,29 @@
+@model SystemPanel.Models.StatisticsViewModel
+
+<h2>System Statistics</h2>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Total Users</h5>
+                <p class="card-text">@Model.TotalUsers</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Active Sessions</h5>
+                <p class="card-text">@Model.ActiveSessions</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">System Health</h5>
+                <p class="card-text">@Model.SystemHealth</p>
+            </div>
+        </div>
+    </div>
+</div>

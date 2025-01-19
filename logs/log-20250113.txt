@@ -1,0 +1,1494 @@
+2025-01-13 14:02:38.127 +03:00 [INF] User profile is available. Using 'C:\Users\TOLGA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-13 14:02:39.499 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [MapUnits] AS [m]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-01-13 14:02:39.647 +03:00 [INF] Executed DbCommand (35ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-13 14:02:39.713 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-01-13 14:02:40.142 +03:00 [INF] Now listening on: https://localhost:58429
+2025-01-13 14:02:40.144 +03:00 [INF] Now listening on: http://localhost:58430
+2025-01-13 14:02:40.283 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-13 14:02:40.285 +03:00 [INF] Hosting environment: Development
+2025-01-13 14:02:40.287 +03:00 [INF] Content root path: C:\Users\TOLGA\Desktop\SystemPanel
+2025-01-13 14:02:41.029 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:02:41.281 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:02:41.297 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:02:41.387 +03:00 [INF] Executing action method SystemPanel.Controllers.AccountController.Login (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:02:41.394 +03:00 [INF] Executed action method SystemPanel.Controllers.AccountController.Login (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.4116ms.
+2025-01-13 14:02:41.412 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2025-01-13 14:02:41.418 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Login (SystemPanel) in 113.4486ms
+2025-01-13 14:02:41.420 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:02:41.426 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 302 0 null 401.6474ms
+2025-01-13 14:02:41.429 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/Home/Index - null null
+2025-01-13 14:02:41.479 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:02:41.491 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:02:41.517 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:02:41.521 +03:00 [INF] Index page accessed at "2025-01-13T11:02:41.5208549Z"
+2025-01-13 14:02:41.541 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:02:41.579 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:02:41.595 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 75.3396ms.
+2025-01-13 14:02:41.607 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:02:41.732 +03:00 [INF] Executed ViewResult - view Index executed in 128.6481ms.
+2025-01-13 14:02:41.737 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 243.8391ms
+2025-01-13 14:02:41.741 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:02:41.744 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:02:41.787 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:02:41.871 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/Home/Index - 200 null text/html; charset=utf-8 441.7292ms
+2025-01-13 14:02:41.744 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:02:41.744 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:02:41.787 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:02:41.866 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:02:41.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:02:41.866 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:02:41.927 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 183.3189ms
+2025-01-13 14:02:41.944 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 158.07ms
+2025-01-13 14:02:41.944 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 200.1861ms
+2025-01-13 14:02:41.944 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 200.2263ms
+2025-01-13 14:02:41.944 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 157.695ms
+2025-01-13 14:02:41.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 111.2178ms
+2025-01-13 14:02:41.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 116.3194ms
+2025-01-13 14:02:41.966 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:02:41.971 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:02:41.975 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:02:41.979 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:02:41.983 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:02:41.989 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:02:41.997 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 131.8851ms
+2025-01-13 14:02:44.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement - null null
+2025-01-13 14:02:44.065 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement - 404 0 null 40.7791ms
+2025-01-13 14:02:44.072 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/UserManagement, Response status code: 404
+2025-01-13 14:03:38.183 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:03:38.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 37.5819ms
+2025-01-13 14:03:44.746 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/MapUnits - null null
+2025-01-13 14:03:44.791 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.MapUnitsController.Index (SystemPanel)'
+2025-01-13 14:03:44.795 +03:00 [INF] Route matched with {action = "Index", controller = "MapUnits"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SystemPanel.Controllers.MapUnitsController (SystemPanel).
+2025-01-13 14:03:44.818 +03:00 [INF] Executing action method SystemPanel.Controllers.MapUnitsController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:03:44.821 +03:00 [INF] Executed action method SystemPanel.Controllers.MapUnitsController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2372ms.
+2025-01-13 14:03:44.824 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:03:44.889 +03:00 [INF] Executed ViewResult - view Index executed in 65.6026ms.
+2025-01-13 14:03:44.889 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:03:44.891 +03:00 [INF] Executed action SystemPanel.Controllers.MapUnitsController.Index (SystemPanel) in 94.0193ms
+2025-01-13 14:03:44.895 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 6.0341ms
+2025-01-13 14:03:44.897 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.MapUnitsController.Index (SystemPanel)'
+2025-01-13 14:03:44.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:03:44.913 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/MapUnits - 200 null text/html; charset=utf-8 166.5063ms
+2025-01-13 14:03:44.910 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:03:44.906 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:03:44.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 27.0812ms
+2025-01-13 14:03:44.931 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/api/map/cities - null null
+2025-01-13 14:03:44.940 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.9077ms
+2025-01-13 14:03:44.946 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.MapUnitsController.GetCities (SystemPanel)'
+2025-01-13 14:03:44.951 +03:00 [INF] Route matched with {action = "GetCities", controller = "MapUnits"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCities() on controller SystemPanel.Controllers.MapUnitsController (SystemPanel).
+2025-01-13 14:03:44.972 +03:00 [INF] Executing action method SystemPanel.Controllers.MapUnitsController.GetCities (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:03:45.042 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id] AS [id], [m].[Name] AS [city], [m].[Latitude] AS [latitude], [m].[Longitude] AS [longitude], [m].[Description] AS [description]
+FROM [MapUnits] AS [m]
+2025-01-13 14:03:45.047 +03:00 [INF] Executed action method SystemPanel.Controllers.MapUnitsController.GetCities (SystemPanel), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 72.9606ms.
+2025-01-13 14:03:45.053 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], SystemPanel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-13 14:03:45.063 +03:00 [INF] Executed action SystemPanel.Controllers.MapUnitsController.GetCities (SystemPanel) in 109.1364ms
+2025-01-13 14:03:45.066 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.MapUnitsController.GetCities (SystemPanel)'
+2025-01-13 14:03:45.068 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/api/map/cities - 200 null application/json; charset=utf-8 136.9842ms
+2025-01-13 14:04:11.716 +03:00 [INF] User profile is available. Using 'C:\Users\TOLGA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-13 14:04:12.824 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [MapUnits] AS [m]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-01-13 14:04:12.965 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-13 14:04:13.028 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-01-13 14:04:13.445 +03:00 [INF] Now listening on: https://localhost:58429
+2025-01-13 14:04:13.447 +03:00 [INF] Now listening on: http://localhost:58430
+2025-01-13 14:04:13.574 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-13 14:04:13.576 +03:00 [INF] Hosting environment: Development
+2025-01-13 14:04:13.576 +03:00 [INF] Content root path: C:\Users\TOLGA\Desktop\SystemPanel
+2025-01-13 14:04:13.953 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:04:14.165 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:04:14.177 +03:00 [INF] Route matched with {action = "Index", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:04:14.258 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:04:14.264 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.1259ms.
+2025-01-13 14:04:14.283 +03:00 [INF] Executing RedirectResult, redirecting to /UserManagement/IdentityUsers.
+2025-01-13 14:04:14.290 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.Index (SystemPanel) in 106.5799ms
+2025-01-13 14:04:14.292 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:04:14.297 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 302 0 null 348.6428ms
+2025-01-13 14:04:14.301 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - null null
+2025-01-13 14:04:14.344 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:04:14.349 +03:00 [INF] Route matched with {action = "IdentityUsers", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult IdentityUsers() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:04:14.375 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:04:14.383 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.1103ms.
+2025-01-13 14:04:14.390 +03:00 [INF] Executing ViewResult, running view IdentityUsers.
+2025-01-13 14:04:14.395 +03:00 [ERR] The view 'IdentityUsers' was not found. Searched locations: ["/Views/UserManagement/IdentityUsers.cshtml","/Views/Shared/IdentityUsers.cshtml"]
+2025-01-13 14:04:14.403 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) in 51.3144ms
+2025-01-13 14:04:14.408 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:04:14.412 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'IdentityUsers' was not found. The following locations were searched:
+/Views/UserManagement/IdentityUsers.cshtml
+/Views/Shared/IdentityUsers.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-13 14:04:14.490 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - 500 null text/html; charset=utf-8 188.9585ms
+2025-01-13 14:04:14.497 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:04:14.497 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:04:14.516 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 18.8802ms
+2025-01-13 14:04:14.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.4977ms
+2025-01-13 14:05:16.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/ - null null
+2025-01-13 14:05:16.490 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:05:16.492 +03:00 [INF] Route matched with {action = "Index", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:05:16.520 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:05:16.523 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.1469ms.
+2025-01-13 14:05:16.525 +03:00 [INF] Executing RedirectResult, redirecting to /UserManagement/IdentityUsers.
+2025-01-13 14:05:16.527 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.Index (SystemPanel) in 32.3207ms
+2025-01-13 14:05:16.528 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:05:16.529 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/ - 302 0 null 119.1605ms
+2025-01-13 14:05:16.532 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - null null
+2025-01-13 14:05:16.560 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:05:16.562 +03:00 [INF] Route matched with {action = "IdentityUsers", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult IdentityUsers() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:05:16.587 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:05:16.639 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 50.6086ms.
+2025-01-13 14:05:16.645 +03:00 [INF] Executing ViewResult, running view IdentityUsers.
+2025-01-13 14:05:16.648 +03:00 [ERR] The view 'IdentityUsers' was not found. Searched locations: ["/Views/UserManagement/IdentityUsers.cshtml","/Views/Shared/IdentityUsers.cshtml"]
+2025-01-13 14:05:16.651 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) in 87.2616ms
+2025-01-13 14:05:16.653 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:05:16.655 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'IdentityUsers' was not found. The following locations were searched:
+/Views/UserManagement/IdentityUsers.cshtml
+/Views/Shared/IdentityUsers.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-13 14:05:16.684 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - 500 null text/html; charset=utf-8 152.599ms
+2025-01-13 14:05:16.696 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:05:16.696 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:05:16.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 78.2227ms
+2025-01-13 14:05:16.790 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.1216ms
+2025-01-13 14:08:47.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/ - null null
+2025-01-13 14:08:47.718 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:08:47.721 +03:00 [INF] Route matched with {action = "Index", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:08:47.745 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:08:47.747 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.0441ms.
+2025-01-13 14:08:47.749 +03:00 [INF] Executing RedirectResult, redirecting to /UserManagement/IdentityUsers.
+2025-01-13 14:08:47.752 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.Index (SystemPanel) in 28.0172ms
+2025-01-13 14:08:47.754 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:08:47.755 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/ - 302 0 null 134.1115ms
+2025-01-13 14:08:47.757 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - null null
+2025-01-13 14:08:47.785 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:08:47.788 +03:00 [INF] Route matched with {action = "IdentityUsers", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult IdentityUsers() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:08:47.811 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:08:47.815 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6406ms.
+2025-01-13 14:08:47.817 +03:00 [INF] Executing ViewResult, running view IdentityUsers.
+2025-01-13 14:08:47.818 +03:00 [ERR] The view 'IdentityUsers' was not found. Searched locations: ["/Views/UserManagement/IdentityUsers.cshtml","/Views/Shared/IdentityUsers.cshtml"]
+2025-01-13 14:08:47.822 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) in 31.5252ms
+2025-01-13 14:08:47.824 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:08:47.826 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'IdentityUsers' was not found. The following locations were searched:
+/Views/UserManagement/IdentityUsers.cshtml
+/Views/Shared/IdentityUsers.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-13 14:08:47.868 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - 500 null text/html; charset=utf-8 110.5258ms
+2025-01-13 14:08:47.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:08:47.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:08:47.887 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 5.0366ms
+2025-01-13 14:08:47.911 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.5135ms
+2025-01-13 14:08:50.686 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:08:50.719 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:08:50.722 +03:00 [INF] Route matched with {action = "Index", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:08:50.746 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:08:50.748 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.0191ms.
+2025-01-13 14:08:50.751 +03:00 [INF] Executing RedirectResult, redirecting to /UserManagement/IdentityUsers.
+2025-01-13 14:08:50.756 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.Index (SystemPanel) in 30.8362ms
+2025-01-13 14:08:50.762 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:08:50.764 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 302 0 null 77.7852ms
+2025-01-13 14:08:50.766 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - null null
+2025-01-13 14:08:50.799 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:08:50.802 +03:00 [INF] Route matched with {action = "IdentityUsers", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult IdentityUsers() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:08:50.827 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:08:50.830 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4158ms.
+2025-01-13 14:08:50.832 +03:00 [INF] Executing ViewResult, running view IdentityUsers.
+2025-01-13 14:08:50.833 +03:00 [ERR] The view 'IdentityUsers' was not found. Searched locations: ["/Views/UserManagement/IdentityUsers.cshtml","/Views/Shared/IdentityUsers.cshtml"]
+2025-01-13 14:08:50.837 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) in 31.1665ms
+2025-01-13 14:08:50.839 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:08:50.841 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'IdentityUsers' was not found. The following locations were searched:
+/Views/UserManagement/IdentityUsers.cshtml
+/Views/Shared/IdentityUsers.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-13 14:08:50.883 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - 500 null text/html; charset=utf-8 116.5887ms
+2025-01-13 14:08:50.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:08:50.898 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:08:50.902 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 4.2715ms
+2025-01-13 14:08:50.989 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 90.8805ms
+2025-01-13 14:08:53.291 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:08:53.318 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:08:53.320 +03:00 [INF] Route matched with {action = "Index", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:08:53.345 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:08:53.347 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.0185ms.
+2025-01-13 14:08:53.349 +03:00 [INF] Executing RedirectResult, redirecting to /UserManagement/IdentityUsers.
+2025-01-13 14:08:53.350 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.Index (SystemPanel) in 26.2223ms
+2025-01-13 14:08:53.353 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:08:53.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 302 0 null 63.7041ms
+2025-01-13 14:08:53.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - null null
+2025-01-13 14:08:53.387 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:08:53.390 +03:00 [INF] Route matched with {action = "IdentityUsers", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult IdentityUsers() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:08:53.418 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:08:53.421 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5297ms.
+2025-01-13 14:08:53.424 +03:00 [INF] Executing ViewResult, running view IdentityUsers.
+2025-01-13 14:08:53.427 +03:00 [ERR] The view 'IdentityUsers' was not found. Searched locations: ["/Views/UserManagement/IdentityUsers.cshtml","/Views/Shared/IdentityUsers.cshtml"]
+2025-01-13 14:08:53.432 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) in 38.1297ms
+2025-01-13 14:08:53.436 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:08:53.438 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'IdentityUsers' was not found. The following locations were searched:
+/Views/UserManagement/IdentityUsers.cshtml
+/Views/Shared/IdentityUsers.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-13 14:08:53.481 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - 500 null text/html; charset=utf-8 124.7191ms
+2025-01-13 14:08:53.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:08:53.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:08:53.502 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.4254ms
+2025-01-13 14:08:53.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 9.0165ms
+2025-01-13 14:10:13.399 +03:00 [INF] User profile is available. Using 'C:\Users\TOLGA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-13 14:10:14.440 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [MapUnits] AS [m]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-01-13 14:10:14.611 +03:00 [INF] Executed DbCommand (56ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-13 14:10:14.673 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-01-13 14:10:15.069 +03:00 [INF] Now listening on: https://localhost:58429
+2025-01-13 14:10:15.071 +03:00 [INF] Now listening on: http://localhost:58430
+2025-01-13 14:10:15.131 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-13 14:10:15.134 +03:00 [INF] Hosting environment: Development
+2025-01-13 14:10:15.135 +03:00 [INF] Content root path: C:\Users\TOLGA\Desktop\SystemPanel
+2025-01-13 14:10:15.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:10:15.999 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:10:16.013 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:10:16.096 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:10:16.099 +03:00 [INF] Index page accessed at "2025-01-13T11:10:16.0997881Z"
+2025-01-13 14:10:16.121 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:10:16.161 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:10:16.180 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 79.0097ms.
+2025-01-13 14:10:16.194 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:10:16.326 +03:00 [INF] Executed ViewResult - view Index executed in 133.6517ms.
+2025-01-13 14:10:16.332 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 313.5093ms
+2025-01-13 14:10:16.335 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:10:16.335 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:10:16.395 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:10:16.335 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:10:16.335 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:10:16.653 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 200 null text/html; charset=utf-8 888.1447ms
+2025-01-13 14:10:16.648 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 313.034ms
+2025-01-13 14:10:16.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:10:16.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:10:16.416 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:10:16.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:10:16.665 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 330.9248ms
+2025-01-13 14:10:16.669 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 333.9794ms
+2025-01-13 14:10:16.670 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 335.8496ms
+2025-01-13 14:10:16.686 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:10:16.691 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 344.2157ms
+2025-01-13 14:10:16.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 300.9848ms
+2025-01-13 14:10:16.703 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 293.7034ms
+2025-01-13 14:10:16.753 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:10:16.759 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:10:16.765 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 250.6536ms
+2025-01-13 14:10:16.769 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:10:16.774 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:10:16.783 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:10:19.361 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement - null null
+2025-01-13 14:10:19.413 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:10:19.417 +03:00 [INF] Route matched with {action = "Index", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:10:19.442 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:10:19.446 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.4362ms.
+2025-01-13 14:10:19.462 +03:00 [INF] Executing RedirectResult, redirecting to /UserManagement/IdentityUsers.
+2025-01-13 14:10:19.465 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.Index (SystemPanel) in 44.5558ms
+2025-01-13 14:10:19.467 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:10:19.468 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement - 302 0 null 107.9066ms
+2025-01-13 14:10:19.471 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - null null
+2025-01-13 14:10:19.504 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:10:19.507 +03:00 [INF] Route matched with {action = "IdentityUsers", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult IdentityUsers() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:10:19.530 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:10:19.582 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 49.5711ms.
+2025-01-13 14:10:19.585 +03:00 [INF] Executing ViewResult, running view IdentityUsers.
+2025-01-13 14:10:19.589 +03:00 [ERR] The view 'IdentityUsers' was not found. Searched locations: ["/Views/UserManagement/IdentityUsers.cshtml","/Views/Shared/IdentityUsers.cshtml"]
+2025-01-13 14:10:19.595 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) in 85.1649ms
+2025-01-13 14:10:19.596 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:10:19.600 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'IdentityUsers' was not found. The following locations were searched:
+/Views/UserManagement/IdentityUsers.cshtml
+/Views/Shared/IdentityUsers.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-13 14:10:19.697 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - 500 null text/html; charset=utf-8 226.63ms
+2025-01-13 14:10:19.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:10:19.713 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:10:19.719 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 5.7154ms
+2025-01-13 14:10:19.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.3818ms
+2025-01-13 14:10:23.036 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:10:23.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 6.7509ms
+2025-01-13 14:10:26.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/CreateUser - null null
+2025-01-13 14:10:26.224 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.CreateUser (SystemPanel)'
+2025-01-13 14:10:26.227 +03:00 [INF] Route matched with {action = "CreateUser", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:10:26.249 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.CreateUser (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:10:26.253 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.CreateUser (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2584ms.
+2025-01-13 14:10:26.256 +03:00 [INF] Executing ViewResult, running view CreateUser.
+2025-01-13 14:10:26.283 +03:00 [INF] Executed ViewResult - view CreateUser executed in 27.7375ms.
+2025-01-13 14:10:26.287 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.CreateUser (SystemPanel) in 57.2322ms
+2025-01-13 14:10:26.290 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.CreateUser (SystemPanel)'
+2025-01-13 14:10:26.292 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/CreateUser - 200 null text/html; charset=utf-8 141.3448ms
+2025-01-13 14:10:26.293 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:10:26.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:10:26.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:10:26.303 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 9.99ms
+2025-01-13 14:10:26.308 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 12.075ms
+2025-01-13 14:10:26.323 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.812ms
+2025-01-13 14:10:26.327 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:10:28.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement - null null
+2025-01-13 14:10:28.192 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:10:28.194 +03:00 [INF] Route matched with {action = "Index", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:10:28.218 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:10:28.221 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.0254ms.
+2025-01-13 14:10:28.223 +03:00 [INF] Executing RedirectResult, redirecting to /UserManagement/IdentityUsers.
+2025-01-13 14:10:28.231 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.Index (SystemPanel) in 33.6249ms
+2025-01-13 14:10:28.233 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:10:28.237 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement - 302 0 null 77.3722ms
+2025-01-13 14:10:28.240 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - null null
+2025-01-13 14:10:28.269 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:10:28.271 +03:00 [INF] Route matched with {action = "IdentityUsers", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult IdentityUsers() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:10:28.304 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:10:28.307 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6546ms.
+2025-01-13 14:10:28.308 +03:00 [INF] Executing ViewResult, running view IdentityUsers.
+2025-01-13 14:10:28.310 +03:00 [ERR] The view 'IdentityUsers' was not found. Searched locations: ["/Views/UserManagement/IdentityUsers.cshtml","/Views/Shared/IdentityUsers.cshtml"]
+2025-01-13 14:10:28.313 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) in 31.4924ms
+2025-01-13 14:10:28.314 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:10:28.316 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'IdentityUsers' was not found. The following locations were searched:
+/Views/UserManagement/IdentityUsers.cshtml
+/Views/Shared/IdentityUsers.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-13 14:10:28.355 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - 500 null text/html; charset=utf-8 115.1106ms
+2025-01-13 14:10:28.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:10:28.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:10:28.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.3908ms
+2025-01-13 14:10:28.384 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 16.6235ms
+2025-01-13 14:10:31.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/ - null null
+2025-01-13 14:10:31.587 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:10:31.590 +03:00 [INF] Route matched with {action = "Index", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:10:31.614 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:10:31.616 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.0251ms.
+2025-01-13 14:10:31.619 +03:00 [INF] Executing RedirectResult, redirecting to /UserManagement/IdentityUsers.
+2025-01-13 14:10:31.620 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.Index (SystemPanel) in 28.1528ms
+2025-01-13 14:10:31.626 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.Index (SystemPanel)'
+2025-01-13 14:10:31.627 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/ - 302 0 null 81.9972ms
+2025-01-13 14:10:31.630 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - null null
+2025-01-13 14:10:31.661 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:10:31.663 +03:00 [INF] Route matched with {action = "IdentityUsers", controller = "UserManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult IdentityUsers() on controller SystemPanel.Controllers.UserManagementController (SystemPanel).
+2025-01-13 14:10:31.688 +03:00 [INF] Executing action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:10:31.692 +03:00 [INF] Executed action method SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6242ms.
+2025-01-13 14:10:31.695 +03:00 [INF] Executing ViewResult, running view IdentityUsers.
+2025-01-13 14:10:31.696 +03:00 [ERR] The view 'IdentityUsers' was not found. Searched locations: ["/Views/UserManagement/IdentityUsers.cshtml","/Views/Shared/IdentityUsers.cshtml"]
+2025-01-13 14:10:31.701 +03:00 [INF] Executed action SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel) in 33.9163ms
+2025-01-13 14:10:31.703 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.UserManagementController.IdentityUsers (SystemPanel)'
+2025-01-13 14:10:31.707 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'IdentityUsers' was not found. The following locations were searched:
+/Views/UserManagement/IdentityUsers.cshtml
+/Views/Shared/IdentityUsers.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-13 14:10:31.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement/IdentityUsers - 500 null text/html; charset=utf-8 119.2338ms
+2025-01-13 14:10:31.763 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:10:31.765 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:10:31.771 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.3701ms
+2025-01-13 14:10:31.773 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 7.7996ms
+2025-01-13 14:11:55.417 +03:00 [INF] User profile is available. Using 'C:\Users\TOLGA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-13 14:11:56.503 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [MapUnits] AS [m]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-01-13 14:11:56.642 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-13 14:11:56.707 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-01-13 14:11:57.147 +03:00 [INF] Now listening on: https://localhost:58429
+2025-01-13 14:11:57.149 +03:00 [INF] Now listening on: http://localhost:58430
+2025-01-13 14:11:57.294 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-13 14:11:57.296 +03:00 [INF] Hosting environment: Development
+2025-01-13 14:11:57.297 +03:00 [INF] Content root path: C:\Users\TOLGA\Desktop\SystemPanel
+2025-01-13 14:11:57.626 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:11:57.880 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2025-01-13 14:11:57.922 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-01-13 14:11:57.952 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-01-13 14:11:57.962 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-13 14:11:57.976 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2025-01-13 14:11:57.991 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:11:58.006 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:11:58.120 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:11:58.124 +03:00 [INF] Index page accessed at "2025-01-13T11:11:58.1243671Z"
+2025-01-13 14:11:58.141 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:11:58.194 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:11:58.216 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 87.9158ms.
+2025-01-13 14:11:58.233 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:11:58.350 +03:00 [INF] Executed ViewResult - view Index executed in 119.1772ms.
+2025-01-13 14:11:58.355 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 344.8819ms
+2025-01-13 14:11:58.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:11:58.356 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:11:58.466 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:11:58.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:11:58.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:11:58.427 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:11:58.457 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:11:58.458 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:11:58.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:11:58.601 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 243.5534ms
+2025-01-13 14:11:58.601 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 244.5157ms
+2025-01-13 14:11:58.603 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 200 null text/html; charset=utf-8 981.6795ms
+2025-01-13 14:11:58.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 257.7271ms
+2025-01-13 14:11:58.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 258.0801ms
+2025-01-13 14:11:58.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 216.34ms
+2025-01-13 14:11:58.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 157.3872ms
+2025-01-13 14:11:58.617 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 158.9463ms
+2025-01-13 14:11:58.635 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:11:58.643 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:11:58.648 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:11:58.652 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 185.7874ms
+2025-01-13 14:11:58.653 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:11:58.656 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:11:58.661 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:12:00.391 +03:00 [INF] Request starting HTTP/2 POST https://localhost:58429/Account/Logout - application/x-www-form-urlencoded 0
+2025-01-13 14:12:00.445 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:12:00.452 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:12:00.459 +03:00 [INF] Antiforgery token validation failed. The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2025-01-13 14:12:00.476 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2025-01-13 14:12:00.481 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2025-01-13 14:12:00.483 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Logout (SystemPanel) in 27.6041ms
+2025-01-13 14:12:00.485 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:12:00.487 +03:00 [INF] Request finished HTTP/2 POST https://localhost:58429/Account/Logout - 400 0 null 96.0278ms
+2025-01-13 14:12:04.519 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:12:04.557 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:04.560 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:12:04.601 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:12:04.604 +03:00 [INF] Index page accessed at "2025-01-13T11:12:04.6045593Z"
+2025-01-13 14:12:04.663 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:12:04.668 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:12:04.670 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 66.1155ms.
+2025-01-13 14:12:04.673 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:12:04.676 +03:00 [INF] Executed ViewResult - view Index executed in 3.2862ms.
+2025-01-13 14:12:04.678 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 113.712ms
+2025-01-13 14:12:04.681 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:04.683 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 200 null text/html; charset=utf-8 163.8589ms
+2025-01-13 14:12:04.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:12:04.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:12:04.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:12:04.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:12:04.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:12:04.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:12:04.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:12:04.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:12:04.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 4.67ms
+2025-01-13 14:12:04.705 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 13.0806ms
+2025-01-13 14:12:04.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 7.5191ms
+2025-01-13 14:12:04.702 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 10.2592ms
+2025-01-13 14:12:04.712 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 18.9674ms
+2025-01-13 14:12:04.714 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 21.5686ms
+2025-01-13 14:12:04.708 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 16.2728ms
+2025-01-13 14:12:04.727 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:12:04.732 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.9312ms
+2025-01-13 14:12:04.736 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:12:04.739 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:12:04.743 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:12:04.747 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:12:04.750 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:12:07.461 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:12:07.501 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:07.503 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:12:07.528 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:12:07.530 +03:00 [INF] Index page accessed at "2025-01-13T11:12:07.5307146Z"
+2025-01-13 14:12:07.533 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:12:07.537 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:12:07.539 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.5778ms.
+2025-01-13 14:12:07.540 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:12:07.542 +03:00 [INF] Executed ViewResult - view Index executed in 1.5972ms.
+2025-01-13 14:12:07.544 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 38.5306ms
+2025-01-13 14:12:07.546 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:07.548 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 200 null text/html; charset=utf-8 87.2688ms
+2025-01-13 14:12:07.554 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:12:07.554 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:12:07.554 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:12:07.554 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:12:07.554 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:12:07.554 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:12:07.554 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:12:07.554 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:12:07.557 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 3.5075ms
+2025-01-13 14:12:07.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 11.1575ms
+2025-01-13 14:12:07.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 17.3902ms
+2025-01-13 14:12:07.575 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 21.308ms
+2025-01-13 14:12:07.580 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 26.1363ms
+2025-01-13 14:12:07.569 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 15.0882ms
+2025-01-13 14:12:07.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 6.7834ms
+2025-01-13 14:12:07.589 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.527ms
+2025-01-13 14:12:07.589 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:12:07.599 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:12:07.604 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:12:07.608 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:12:07.612 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:12:07.617 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:12:08.057 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:12:08.087 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:08.089 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:12:08.113 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:12:08.115 +03:00 [INF] Index page accessed at "2025-01-13T11:12:08.1158893Z"
+2025-01-13 14:12:08.118 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:12:08.121 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:12:08.123 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.848ms.
+2025-01-13 14:12:08.125 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:12:08.127 +03:00 [INF] Executed ViewResult - view Index executed in 2.0505ms.
+2025-01-13 14:12:08.130 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 38.3335ms
+2025-01-13 14:12:08.132 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:08.134 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 200 null text/html; charset=utf-8 76.9442ms
+2025-01-13 14:12:08.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:12:08.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:12:08.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:12:08.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:12:08.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:12:08.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:12:08.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:12:08.140 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:12:08.145 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 5.3175ms
+2025-01-13 14:12:08.147 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 8.0021ms
+2025-01-13 14:12:08.149 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 10.2195ms
+2025-01-13 14:12:08.152 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 12.7476ms
+2025-01-13 14:12:08.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 15.5264ms
+2025-01-13 14:12:08.159 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 19.2146ms
+2025-01-13 14:12:08.163 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 23.6294ms
+2025-01-13 14:12:08.169 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.8071ms
+2025-01-13 14:12:08.169 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:12:08.173 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:12:08.179 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:12:08.188 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:12:08.192 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:12:08.197 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:12:08.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:12:08.298 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:08.301 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:12:08.323 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:12:08.325 +03:00 [INF] Index page accessed at "2025-01-13T11:12:08.3254682Z"
+2025-01-13 14:12:08.328 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:12:08.333 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:12:08.336 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.1399ms.
+2025-01-13 14:12:08.338 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:12:08.340 +03:00 [INF] Executed ViewResult - view Index executed in 1.7417ms.
+2025-01-13 14:12:08.342 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 38.7183ms
+2025-01-13 14:12:08.343 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:08.345 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 200 null text/html; charset=utf-8 72.0722ms
+2025-01-13 14:12:08.351 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:12:08.351 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:12:08.351 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:12:08.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:12:08.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:12:08.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:12:08.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:12:08.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:12:08.372 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 20.5792ms
+2025-01-13 14:12:08.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 9.5642ms
+2025-01-13 14:12:08.365 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 13.6744ms
+2025-01-13 14:12:08.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 17.3941ms
+2025-01-13 14:12:08.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 6.5547ms
+2025-01-13 14:12:08.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 2.8579ms
+2025-01-13 14:12:08.386 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.8445ms
+2025-01-13 14:12:08.389 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 37.0019ms
+2025-01-13 14:12:08.394 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:12:08.404 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:12:08.409 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:12:08.415 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:12:08.419 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:12:08.428 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:12:08.491 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:12:08.521 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:08.523 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:12:08.547 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:12:08.552 +03:00 [INF] Index page accessed at "2025-01-13T11:12:08.5523111Z"
+2025-01-13 14:12:08.554 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:12:08.558 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:12:08.562 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.9526ms.
+2025-01-13 14:12:08.564 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:12:08.566 +03:00 [INF] Executed ViewResult - view Index executed in 1.8416ms.
+2025-01-13 14:12:08.567 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 41.619ms
+2025-01-13 14:12:08.569 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:08.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 200 null text/html; charset=utf-8 79.5987ms
+2025-01-13 14:12:08.577 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:12:08.577 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:12:08.577 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:12:08.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:12:08.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:12:08.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:12:08.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:12:08.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:12:08.582 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 4.9353ms
+2025-01-13 14:12:08.585 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 7.7186ms
+2025-01-13 14:12:08.588 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 10.2226ms
+2025-01-13 14:12:08.591 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 13.3548ms
+2025-01-13 14:12:08.595 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 17.32ms
+2025-01-13 14:12:08.598 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 20.6867ms
+2025-01-13 14:12:08.602 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 24.2493ms
+2025-01-13 14:12:08.607 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.2889ms
+2025-01-13 14:12:08.609 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:12:08.613 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:12:08.621 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:12:08.625 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:12:08.629 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:12:08.633 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:12:08.685 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:12:08.713 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:08.715 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:12:08.737 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:12:08.740 +03:00 [INF] Index page accessed at "2025-01-13T11:12:08.7407671Z"
+2025-01-13 14:12:08.743 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:12:08.747 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:12:08.750 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.7766ms.
+2025-01-13 14:12:08.752 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:12:08.754 +03:00 [INF] Executed ViewResult - view Index executed in 1.7345ms.
+2025-01-13 14:12:08.756 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 39.5068ms
+2025-01-13 14:12:08.758 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:08.760 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 200 null text/html; charset=utf-8 75.3207ms
+2025-01-13 14:12:08.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:12:08.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:12:08.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:12:08.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:12:08.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:12:08.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:12:08.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:12:08.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:12:08.775 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 4.8716ms
+2025-01-13 14:12:08.777 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 7.3722ms
+2025-01-13 14:12:08.781 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 11.4552ms
+2025-01-13 14:12:08.785 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 14.8174ms
+2025-01-13 14:12:08.788 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 18.0862ms
+2025-01-13 14:12:08.791 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 21.0291ms
+2025-01-13 14:12:08.795 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 24.286ms
+2025-01-13 14:12:08.802 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.744ms
+2025-01-13 14:12:08.805 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:12:08.817 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:12:08.821 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:12:08.824 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:12:08.829 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:12:08.836 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:12:09.595 +03:00 [INF] Request starting HTTP/2 POST https://localhost:58429/Account/Logout - application/x-www-form-urlencoded 0
+2025-01-13 14:12:09.633 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:12:09.635 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:12:09.638 +03:00 [INF] Antiforgery token validation failed. The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2025-01-13 14:12:09.640 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2025-01-13 14:12:09.641 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2025-01-13 14:12:09.642 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Logout (SystemPanel) in 4.9359ms
+2025-01-13 14:12:09.644 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:12:09.646 +03:00 [INF] Request finished HTTP/2 POST https://localhost:58429/Account/Logout - 400 0 null 50.7784ms
+2025-01-13 14:12:49.035 +03:00 [INF] User profile is available. Using 'C:\Users\TOLGA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-13 14:12:50.145 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [MapUnits] AS [m]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-01-13 14:12:50.281 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-13 14:12:50.347 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-01-13 14:12:50.734 +03:00 [INF] Now listening on: https://localhost:58429
+2025-01-13 14:12:50.736 +03:00 [INF] Now listening on: http://localhost:58430
+2025-01-13 14:12:50.781 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-13 14:12:50.784 +03:00 [INF] Hosting environment: Development
+2025-01-13 14:12:50.785 +03:00 [INF] Content root path: C:\Users\TOLGA\Desktop\SystemPanel
+2025-01-13 14:12:51.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:12:51.374 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:51.386 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:12:51.465 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:12:51.468 +03:00 [INF] Index page accessed at "2025-01-13T11:12:51.4683845Z"
+2025-01-13 14:12:51.490 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:12:51.523 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:12:51.541 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 70.4281ms.
+2025-01-13 14:12:51.554 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:12:51.683 +03:00 [INF] Executed ViewResult - view Index executed in 129.4437ms.
+2025-01-13 14:12:51.693 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 302.4273ms
+2025-01-13 14:12:51.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:12:51.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:12:51.728 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:51.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:12:51.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 50.3152ms
+2025-01-13 14:12:51.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:12:51.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:12:51.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:12:51.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:12:51.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:12:51.759 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 66.7369ms
+2025-01-13 14:12:51.761 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 200 null text/html; charset=utf-8 630.0512ms
+2025-01-13 14:12:51.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 81.7714ms
+2025-01-13 14:12:51.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 81.7749ms
+2025-01-13 14:12:51.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 73.0105ms
+2025-01-13 14:12:51.778 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 75.8416ms
+2025-01-13 14:12:51.781 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 70.7904ms
+2025-01-13 14:12:51.796 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:12:51.810 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:12:51.814 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:12:51.817 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:12:51.824 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.9073ms
+2025-01-13 14:12:51.824 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:12:51.830 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:12:53.301 +03:00 [INF] Request starting HTTP/2 POST https://localhost:58429/Account/Logout - application/x-www-form-urlencoded 0
+2025-01-13 14:12:53.343 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:12:53.350 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:12:53.357 +03:00 [INF] Antiforgery token validation failed. The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2025-01-13 14:12:53.376 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2025-01-13 14:12:53.380 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2025-01-13 14:12:53.382 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Logout (SystemPanel) in 29.4791ms
+2025-01-13 14:12:53.384 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:12:53.386 +03:00 [INF] Request finished HTTP/2 POST https://localhost:58429/Account/Logout - 400 0 null 85.1241ms
+2025-01-13 14:12:56.957 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/Account/ - null null
+2025-01-13 14:12:56.995 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:12:57.004 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:12:57.038 +03:00 [INF] Executing action method SystemPanel.Controllers.AccountController.Login (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:12:57.041 +03:00 [INF] Executed action method SystemPanel.Controllers.AccountController.Login (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.5436ms.
+2025-01-13 14:12:57.057 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2025-01-13 14:12:57.059 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Login (SystemPanel) in 50.6499ms
+2025-01-13 14:12:57.062 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:12:57.063 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/Account/ - 302 0 null 106.3949ms
+2025-01-13 14:12:57.065 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:12:57.094 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:57.096 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:12:57.120 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:12:57.122 +03:00 [INF] Index page accessed at "2025-01-13T11:12:57.1228413Z"
+2025-01-13 14:12:57.179 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:12:57.185 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:12:57.188 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 65.2335ms.
+2025-01-13 14:12:57.190 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:12:57.192 +03:00 [INF] Executed ViewResult - view Index executed in 2.7964ms.
+2025-01-13 14:12:57.195 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 96.9593ms
+2025-01-13 14:12:57.197 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:12:57.200 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 200 null text/html; charset=utf-8 134.3678ms
+2025-01-13 14:12:57.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:12:57.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:12:57.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:12:57.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:12:57.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:12:57.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:12:57.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:12:57.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:12:57.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 4.8231ms
+2025-01-13 14:12:57.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 6.9269ms
+2025-01-13 14:12:57.223 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 11.2501ms
+2025-01-13 14:12:57.227 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 14.5619ms
+2025-01-13 14:12:57.231 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 19.0157ms
+2025-01-13 14:12:57.235 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 22.6195ms
+2025-01-13 14:12:57.239 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 26.9098ms
+2025-01-13 14:12:57.251 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:12:57.251 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.9713ms
+2025-01-13 14:12:57.254 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:12:57.258 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:12:57.263 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:12:57.267 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:12:57.273 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:13:01.356 +03:00 [INF] Request starting HTTP/2 POST https://localhost:58429/Account/Logout - application/x-www-form-urlencoded 0
+2025-01-13 14:13:01.394 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:13:01.397 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:13:01.400 +03:00 [INF] Antiforgery token validation failed. The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2025-01-13 14:13:01.405 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2025-01-13 14:13:01.407 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2025-01-13 14:13:01.408 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Logout (SystemPanel) in 7.8921ms
+2025-01-13 14:13:01.410 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:13:01.412 +03:00 [INF] Request finished HTTP/2 POST https://localhost:58429/Account/Logout - 400 0 null 55.9325ms
+2025-01-13 14:13:20.567 +03:00 [INF] User profile is available. Using 'C:\Users\TOLGA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-13 14:13:21.657 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [MapUnits] AS [m]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-01-13 14:13:21.798 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-13 14:13:21.865 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-01-13 14:13:22.224 +03:00 [INF] Now listening on: https://localhost:58429
+2025-01-13 14:13:22.226 +03:00 [INF] Now listening on: http://localhost:58430
+2025-01-13 14:13:22.268 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-13 14:13:22.271 +03:00 [INF] Hosting environment: Development
+2025-01-13 14:13:22.272 +03:00 [INF] Content root path: C:\Users\TOLGA\Desktop\SystemPanel
+2025-01-13 14:13:22.582 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:13:22.816 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:13:22.830 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:13:22.916 +03:00 [INF] Executing action method SystemPanel.Controllers.AccountController.Login (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:13:22.923 +03:00 [INF] Executed action method SystemPanel.Controllers.AccountController.Login (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.4707ms.
+2025-01-13 14:13:22.943 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2025-01-13 14:13:22.948 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Login (SystemPanel) in 110.1438ms
+2025-01-13 14:13:22.952 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:13:22.958 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 302 0 null 380.2485ms
+2025-01-13 14:13:22.962 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/Home/Index - null null
+2025-01-13 14:13:23.006 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:13:23.012 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:13:23.040 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:13:23.044 +03:00 [INF] Index page accessed at "2025-01-13T11:13:23.0440668Z"
+2025-01-13 14:13:23.064 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:13:23.105 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:13:23.119 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 76.5445ms.
+2025-01-13 14:13:23.129 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:13:23.254 +03:00 [INF] Executed ViewResult - view Index executed in 128.3426ms.
+2025-01-13 14:13:23.258 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 242.7468ms
+2025-01-13 14:13:23.262 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:13:23.264 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:13:23.264 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:13:23.349 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/Home/Index - 200 null text/html; charset=utf-8 387.0123ms
+2025-01-13 14:13:23.264 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:13:23.264 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:13:23.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:13:23.264 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:13:23.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:13:23.325 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:13:23.362 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 98.2987ms
+2025-01-13 14:13:23.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 115.3152ms
+2025-01-13 14:13:23.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 115.3063ms
+2025-01-13 14:13:23.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 115.336ms
+2025-01-13 14:13:23.382 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 67.0918ms
+2025-01-13 14:13:23.386 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 121.3922ms
+2025-01-13 14:13:23.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 73.786ms
+2025-01-13 14:13:23.408 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:13:23.411 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:13:23.414 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:13:23.419 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:13:23.424 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.0771ms
+2025-01-13 14:13:23.424 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:13:23.428 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:13:24.446 +03:00 [INF] Request starting HTTP/2 POST https://localhost:58429/Account/Logout - application/x-www-form-urlencoded 0
+2025-01-13 14:13:24.479 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:13:24.484 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:13:24.491 +03:00 [INF] Antiforgery token validation failed. The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2025-01-13 14:13:24.507 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2025-01-13 14:13:24.511 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2025-01-13 14:13:24.512 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Logout (SystemPanel) in 24.6438ms
+2025-01-13 14:13:24.514 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:13:24.515 +03:00 [INF] Request finished HTTP/2 POST https://localhost:58429/Account/Logout - 400 0 null 68.5408ms
+2025-01-13 14:13:27.617 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:13:27.624 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 7.4368ms
+2025-01-13 14:13:31.930 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/Home/Index - null null
+2025-01-13 14:13:31.965 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:13:31.967 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:13:31.992 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:13:31.995 +03:00 [INF] Index page accessed at "2025-01-13T11:13:31.9951317Z"
+2025-01-13 14:13:32.053 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:13:32.060 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:13:32.063 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 68.1224ms.
+2025-01-13 14:13:32.065 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:13:32.070 +03:00 [INF] Executed ViewResult - view Index executed in 4.7011ms.
+2025-01-13 14:13:32.072 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 101.6356ms
+2025-01-13 14:13:32.074 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:13:32.076 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/Home/Index - 200 null text/html; charset=utf-8 145.9372ms
+2025-01-13 14:13:32.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:13:32.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:13:32.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:13:32.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:13:32.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:13:32.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:13:32.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:13:32.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:13:32.085 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 4.1226ms
+2025-01-13 14:13:32.088 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 7.4847ms
+2025-01-13 14:13:32.102 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 20.9663ms
+2025-01-13 14:13:32.106 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 24.778ms
+2025-01-13 14:13:32.092 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 10.962ms
+2025-01-13 14:13:32.096 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 14.5194ms
+2025-01-13 14:13:32.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 16.8297ms
+2025-01-13 14:13:32.119 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:13:32.125 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:13:32.125 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.9764ms
+2025-01-13 14:13:32.128 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:13:32.132 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:13:32.143 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:13:32.146 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:13:34.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/UserManagement - null null
+2025-01-13 14:13:34.610 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/UserManagement - 404 0 null 40.0897ms
+2025-01-13 14:13:34.614 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/UserManagement, Response status code: 404
+2025-01-13 14:13:35.829 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:13:35.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 5.7387ms
+2025-01-13 14:13:41.355 +03:00 [INF] Request starting HTTP/2 POST https://localhost:58429/Account/Logout - application/x-www-form-urlencoded 0
+2025-01-13 14:13:41.393 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:13:41.395 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:13:41.398 +03:00 [INF] Antiforgery token validation failed. The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2025-01-13 14:13:41.403 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2025-01-13 14:13:41.404 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2025-01-13 14:13:41.406 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Logout (SystemPanel) in 8.0438ms
+2025-01-13 14:13:41.407 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:13:41.409 +03:00 [INF] Request finished HTTP/2 POST https://localhost:58429/Account/Logout - 400 0 null 53.8328ms
+2025-01-13 14:13:43.033 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:13:43.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 6.581ms
+2025-01-13 14:13:56.654 +03:00 [INF] Request starting HTTP/2 POST https://localhost:58429/Account/Logout - application/x-www-form-urlencoded 0
+2025-01-13 14:13:56.685 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:13:56.687 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:13:56.689 +03:00 [INF] Antiforgery token validation failed. The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2025-01-13 14:13:56.692 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2025-01-13 14:13:56.693 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2025-01-13 14:13:56.694 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Logout (SystemPanel) in 4.7259ms
+2025-01-13 14:13:56.695 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:13:56.697 +03:00 [INF] Request finished HTTP/2 POST https://localhost:58429/Account/Logout - 400 0 null 43.3391ms
+2025-01-13 14:24:14.514 +03:00 [INF] User profile is available. Using 'C:\Users\TOLGA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-13 14:24:15.680 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [MapUnits] AS [m]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-01-13 14:24:15.837 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-13 14:24:15.902 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-01-13 14:24:16.337 +03:00 [INF] Now listening on: https://localhost:58429
+2025-01-13 14:24:16.339 +03:00 [INF] Now listening on: http://localhost:58430
+2025-01-13 14:24:16.497 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-13 14:24:16.499 +03:00 [INF] Hosting environment: Development
+2025-01-13 14:24:16.501 +03:00 [INF] Content root path: C:\Users\TOLGA\Desktop\SystemPanel
+2025-01-13 14:24:16.633 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:24:16.848 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:24:16.862 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:24:16.944 +03:00 [INF] Executing action method SystemPanel.Controllers.AccountController.Login (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:24:16.952 +03:00 [INF] Executed action method SystemPanel.Controllers.AccountController.Login (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.5187ms.
+2025-01-13 14:24:16.970 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2025-01-13 14:24:16.978 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Login (SystemPanel) in 109.3016ms
+2025-01-13 14:24:16.981 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:24:16.987 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 302 0 null 359.2014ms
+2025-01-13 14:24:16.992 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/Home/Index - null null
+2025-01-13 14:24:17.059 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:24:17.065 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:24:17.091 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:24:17.095 +03:00 [INF] Index page accessed at "2025-01-13T11:24:17.0956289Z"
+2025-01-13 14:24:17.117 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:24:17.152 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:24:17.166 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 72.3085ms.
+2025-01-13 14:24:17.177 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:24:17.310 +03:00 [INF] Executed ViewResult - view Index executed in 136.1126ms.
+2025-01-13 14:24:17.314 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 244.5532ms
+2025-01-13 14:24:17.318 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:24:17.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:24:17.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:24:17.319 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:24:17.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:24:17.334 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:24:17.399 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:24:17.430 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:24:17.443 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:24:17.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 137.6576ms
+2025-01-13 14:24:17.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 154.6543ms
+2025-01-13 14:24:17.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 154.2066ms
+2025-01-13 14:24:17.469 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/Home/Index - 200 null text/html; charset=utf-8 477.4014ms
+2025-01-13 14:24:17.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 154.6447ms
+2025-01-13 14:24:17.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 145.7878ms
+2025-01-13 14:24:17.478 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 111.4281ms
+2025-01-13 14:24:17.482 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 78.2821ms
+2025-01-13 14:24:17.503 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:24:17.506 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:24:17.513 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:24:17.519 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:24:17.523 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.1972ms
+2025-01-13 14:24:17.526 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:24:17.531 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:24:18.698 +03:00 [INF] Request starting HTTP/2 POST https://localhost:58429/Account/Logout - application/x-www-form-urlencoded 0
+2025-01-13 14:24:18.731 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:24:18.738 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:24:18.744 +03:00 [INF] Antiforgery token validation failed. The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2025-01-13 14:24:18.794 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2025-01-13 14:24:18.797 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2025-01-13 14:24:18.798 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Logout (SystemPanel) in 57.7336ms
+2025-01-13 14:24:18.801 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:24:18.802 +03:00 [INF] Request finished HTTP/2 POST https://localhost:58429/Account/Logout - 400 0 null 104.7506ms
+2025-01-13 14:25:36.121 +03:00 [INF] User profile is available. Using 'C:\Users\TOLGA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-13 14:25:37.317 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [MapUnits] AS [m]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-01-13 14:25:37.457 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-13 14:25:37.521 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-01-13 14:25:37.879 +03:00 [INF] Now listening on: https://localhost:58429
+2025-01-13 14:25:37.880 +03:00 [INF] Now listening on: http://localhost:58430
+2025-01-13 14:25:37.942 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-13 14:25:37.944 +03:00 [INF] Hosting environment: Development
+2025-01-13 14:25:37.945 +03:00 [INF] Content root path: C:\Users\TOLGA\Desktop\SystemPanel
+2025-01-13 14:25:38.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:25:38.564 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:25:38.581 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:25:38.664 +03:00 [INF] Executing action method SystemPanel.Controllers.AccountController.Login (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:25:38.670 +03:00 [INF] Executed action method SystemPanel.Controllers.AccountController.Login (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.3521ms.
+2025-01-13 14:25:38.687 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2025-01-13 14:25:38.692 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Login (SystemPanel) in 105.9495ms
+2025-01-13 14:25:38.694 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:25:38.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 302 0 null 363.577ms
+2025-01-13 14:25:38.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/Home/Index - null null
+2025-01-13 14:25:38.748 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:25:38.754 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:25:38.780 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:25:38.784 +03:00 [INF] Index page accessed at "2025-01-13T11:25:38.7845065Z"
+2025-01-13 14:25:38.805 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:25:38.840 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:25:38.854 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 70.7953ms.
+2025-01-13 14:25:38.864 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:25:38.994 +03:00 [INF] Executed ViewResult - view Index executed in 133.3131ms.
+2025-01-13 14:25:38.999 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 241.5225ms
+2025-01-13 14:25:39.002 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:25:39.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:25:39.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:25:39.002 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:25:39.003 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:25:39.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:25:39.029 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:25:39.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:25:39.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:25:39.115 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 112.4162ms
+2025-01-13 14:25:39.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 129.7578ms
+2025-01-13 14:25:39.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 129.081ms
+2025-01-13 14:25:39.128 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/Home/Index - 200 null text/html; charset=utf-8 425.7467ms
+2025-01-13 14:25:39.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 129.8489ms
+2025-01-13 14:25:39.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 118.7891ms
+2025-01-13 14:25:39.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 109.8306ms
+2025-01-13 14:25:39.144 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 62.0591ms
+2025-01-13 14:25:39.159 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:25:39.164 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:25:39.171 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 89.0477ms
+2025-01-13 14:25:39.173 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:25:39.178 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:25:39.181 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:25:39.186 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:25:40.716 +03:00 [INF] Request starting HTTP/2 POST https://localhost:58429/Account/Logout - application/x-www-form-urlencoded 0
+2025-01-13 14:25:40.749 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:25:40.754 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:25:40.760 +03:00 [INF] Antiforgery token validation failed. The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2025-01-13 14:25:40.778 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2025-01-13 14:25:40.781 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2025-01-13 14:25:40.782 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Logout (SystemPanel) in 24.8228ms
+2025-01-13 14:25:40.784 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:25:40.785 +03:00 [INF] Request finished HTTP/2 POST https://localhost:58429/Account/Logout - 400 0 null 69.4371ms
+2025-01-13 14:29:07.493 +03:00 [INF] User profile is available. Using 'C:\Users\TOLGA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-13 14:29:08.586 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [MapUnits] AS [m]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-01-13 14:29:08.725 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-01-13 14:29:08.787 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-01-13 14:29:09.225 +03:00 [INF] Now listening on: https://localhost:58429
+2025-01-13 14:29:09.228 +03:00 [INF] Now listening on: http://localhost:58430
+2025-01-13 14:29:09.280 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-13 14:29:09.281 +03:00 [INF] Hosting environment: Development
+2025-01-13 14:29:09.282 +03:00 [INF] Content root path: C:\Users\TOLGA\Desktop\SystemPanel
+2025-01-13 14:29:09.504 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/ - null null
+2025-01-13 14:29:09.712 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:29:09.726 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:29:09.811 +03:00 [INF] Executing action method SystemPanel.Controllers.AccountController.Login (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:29:09.819 +03:00 [INF] Executed action method SystemPanel.Controllers.AccountController.Login (SystemPanel), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.543ms.
+2025-01-13 14:29:09.837 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2025-01-13 14:29:09.843 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Login (SystemPanel) in 109.9783ms
+2025-01-13 14:29:09.845 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Login (SystemPanel)'
+2025-01-13 14:29:09.851 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/ - 302 0 null 355.1067ms
+2025-01-13 14:29:09.855 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/Home/Index - null null
+2025-01-13 14:29:09.904 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:29:09.910 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SystemPanel.Controllers.HomeController (SystemPanel).
+2025-01-13 14:29:09.936 +03:00 [INF] Executing action method SystemPanel.Controllers.HomeController.Index (SystemPanel) - Validation state: "Valid"
+2025-01-13 14:29:09.940 +03:00 [INF] Index page accessed at "2025-01-13T11:29:09.9403243Z"
+2025-01-13 14:29:09.960 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Birimi], [d].[Detay], [d].[KayitTarihi], [d].[Resim1], [d].[Resim2], [d].[Resim3], [d].[Resim4], [d].[Turu], [d].[Yazan]
+FROM [Duyurular] AS [d]
+ORDER BY [d].[KayitTarihi] DESC
+2025-01-13 14:29:09.995 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Category], [m].[Description], [m].[Icon], [m].[Name], [m].[Order], [m].[Route]
+FROM [Modules] AS [m]
+ORDER BY [m].[Order]
+2025-01-13 14:29:10.009 +03:00 [INF] Executed action method SystemPanel.Controllers.HomeController.Index (SystemPanel), returned result Microsoft.AspNetCore.Mvc.ViewResult in 70.3326ms.
+2025-01-13 14:29:10.021 +03:00 [INF] Executing ViewResult, running view Index.
+2025-01-13 14:29:10.143 +03:00 [INF] Executed ViewResult - view Index executed in 125.2819ms.
+2025-01-13 14:29:10.148 +03:00 [INF] Executed action SystemPanel.Controllers.HomeController.Index (SystemPanel) in 234.0072ms
+2025-01-13 14:29:10.152 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.HomeController.Index (SystemPanel)'
+2025-01-13 14:29:10.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - null null
+2025-01-13 14:29:10.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - null null
+2025-01-13 14:29:10.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/css/_Layout.css - null null
+2025-01-13 14:29:10.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - null null
+2025-01-13 14:29:10.152 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-13 14:29:10.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - null null
+2025-01-13 14:29:10.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/bootstrap.min.css - 404 0 null 63.9702ms
+2025-01-13 14:29:10.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/jquery.min.js - 404 0 null 63.9488ms
+2025-01-13 14:29:10.201 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/Home/Index - 200 null text/html; charset=utf-8 345.5635ms
+2025-01-13 14:29:10.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/css/_Layout.css - 404 0 null 64.0272ms
+2025-01-13 14:29:10.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/css/theme-default.css - 404 0 null 63.9652ms
+2025-01-13 14:29:10.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - null null
+2025-01-13 14:29:10.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:58429/_vs/browserLink - null null
+2025-01-13 14:29:10.234 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/chart.min.js - 404 0 null 63.3078ms
+2025-01-13 14:29:10.234 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_framework/aspnetcore-browser-refresh.js - 200 16093 application/javascript; charset=utf-8 81.7788ms
+2025-01-13 14:29:10.239 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/bootstrap.min.css, Response status code: 404
+2025-01-13 14:29:10.243 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/jquery.min.js, Response status code: 404
+2025-01-13 14:29:10.255 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/css/_Layout.css, Response status code: 404
+2025-01-13 14:29:10.259 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/css/theme-default.css, Response status code: 404
+2025-01-13 14:29:10.277 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/chart.min.js, Response status code: 404
+2025-01-13 14:29:10.268 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js - 404 0 null 96.857ms
+2025-01-13 14:29:10.315 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:58429/wwwroot/js/bootstrap.bundle.min.js, Response status code: 404
+2025-01-13 14:29:10.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:58429/_vs/browserLink - 200 null text/javascript; charset=UTF-8 140.3438ms
+2025-01-13 14:29:12.823 +03:00 [INF] Request starting HTTP/2 POST https://localhost:58429/Account/Logout - application/x-www-form-urlencoded 0
+2025-01-13 14:29:12.858 +03:00 [INF] Executing endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:29:12.865 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller SystemPanel.Controllers.AccountController (SystemPanel).
+2025-01-13 14:29:12.872 +03:00 [INF] Antiforgery token validation failed. The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2025-01-13 14:29:12.890 +03:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2025-01-13 14:29:12.894 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2025-01-13 14:29:12.896 +03:00 [INF] Executed action SystemPanel.Controllers.AccountController.Logout (SystemPanel) in 27.5744ms
+2025-01-13 14:29:12.899 +03:00 [INF] Executed endpoint 'SystemPanel.Controllers.AccountController.Logout (SystemPanel)'
+2025-01-13 14:29:12.900 +03:00 [INF] Request finished HTTP/2 POST https://localhost:58429/Account/Logout - 400 0 null 77.1124ms

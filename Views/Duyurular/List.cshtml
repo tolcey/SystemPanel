@@ -1,0 +1,146 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<SystemPanel.Models.Duyuru>
+
+<div class="container mt-4">
+    <!-- İstatistik Kartları -->
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card bg-info text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Toplam Duyuru</h5>
+                    <p class="display-4">@ViewBag.TotalCount</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Son Eklenen</h5>
+                    <p>@ViewBag.RecentAnnouncement?.Turu ?? "Veri Yok"</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-warning text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Bugün Eklenenler</h5>
+                    <p class="display-4">@ViewBag.TodayCount</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Duyuru Ekle Butonu -->
+    <div class="d-flex justify-content-end mb-4">
+        <a href="/Duyurular/Create" class="btn btn-success">
+            <i class="fas fa-plus-circle me-2"></i> Duyuru Ekle
+        </a>
+    </div>
+
+    <!-- Filtreleme Formu -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <form method="get" action="/Duyurular/List">
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="text" name="searchText" class="form-control" placeholder="Arama yapın..." value="@ViewBag.SearchText" />
+                    </div>
+                    <div class="col-md-4">
+                        <select name="typeFilter" class="form-control">
+                            <option value="">Tüm Türler</option>
+                            <option value="Bilgilendirme">Bilgilendirme</option>
+                            <option value="Uyarı">Uyarı</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary w-100">Filtrele</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toplu Silme Formu -->
+    <form asp-action="DeleteSelected" method="post">
+        <!-- Uyarı Mesajı -->
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["Message"]
+            </div>
+        }
+
+        <!-- Duyuru Tablosu -->
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white d-flex justify-content-between">
+                <span>Duyurular</span>
+                <div>
+                    <a href="/Duyurular/Create" class="btn btn-success btn-sm me-2">
+                        <i class="fas fa-plus-circle"></i> Duyuru Ekle
+                    </a>
+                    <button type="submit" class="btn btn-danger btn-sm">
+                        <i class="fas fa-trash-alt me-2"></i> Seçilenleri Sil
+                    </button>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-striped mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th style="width: 50px;">
+                                <input type="checkbox" id="select-all" />
+                            </th>
+                            <th>Türü</th>
+                            <th>Birim</th>
+                            <th>Kayıt Tarihi</th>
+                            <th style="width: 200px;">İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var duyuru in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="selectedIds" value="@duyuru.Id" />
+                                </td>
+                                <td>
+                                    <span class="badge @("bg-" + (duyuru.Turu == "Uyarı" ? "danger" : "info"))">
+                                        @duyuru.Turu
+                                    </span>
+                                </td>
+                                <td>@duyuru.Birimi</td>
+                                <td>@duyuru.KayitTarihi?.ToString("dd MMM yyyy")</td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                            İşlemler
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <li><a class="dropdown-item" asp-action="Details" asp-route-id="@duyuru.Id">Detay</a></li>
+                                            <li><a class="dropdown-item" asp-action="Edit" asp-route-id="@duyuru.Id">Düzenle</a></li>
+                                            <li><a class="dropdown-item text-danger" asp-action="Delete" asp-route-id="@duyuru.Id">Sil</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </form>
+
+    <!-- Sayfalama -->
+    <div class="pagination justify-content-center">
+        @Html.PagedListPager(Model, page => Url.Action("List", new { page }))
+    </div>
+
+    <!-- JavaScript for Select All -->
+    <script>
+        document.getElementById('select-all').addEventListener('click', function (e) {
+            const checkboxes = document.querySelectorAll('input[name="selectedIds"]');
+            checkboxes.forEach(checkbox => checkbox.checked = e.target.checked);
+        });
+    </script>
+</div>

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<SystemPanel.Models.AdUser>
+
+<table>
+    <thead>
+        <tr>
+            <th>Kullanıcı Adı</th>
+            <th>Görünen Ad</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.DisplayName</td>
+                <td>@user.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>

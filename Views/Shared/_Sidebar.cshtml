@@ -1,0 +1,108 @@
+﻿<nav class="sidebar bg-dark text-white vh-100">
+    <div class="sidebar-header p-3 text-center">
+        <h3>SystemPanel</h3>
+    </div>
+    <ul class="nav flex-column px-2">
+        <!-- Ana Menü -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Index", "Home")">
+                <i class="fas fa-home me-2"></i> Anasayfa
+            </a>
+        </li>
+
+        <!-- Yönetim Modülleri -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Index", "AdUser")">
+                Active Directory Yönetimi
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Index", "IdentityUser")">
+                Kullanıcı Yönetimi
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Index", "Gpo")">
+                GPO Yönetimi
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Index", "Logs")">
+                Log Yönetimi
+            </a>
+        </li>
+
+        <!-- Sunucu İzleme -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Index", "ServerMonitoring")">
+                Sunucu İzleme
+            </a>
+        </li>
+
+        <!-- Duyurular -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("List", "Duyurular")">
+                Duyurular
+            </a>
+        </li>
+
+        <!-- SCCM Yönetimi -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Dps", "Sccm")">
+                SCCM Yönetimi
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Index", "SCCMLogs")">
+                SCCM Logları
+            </a>
+        </li>
+
+        <!-- Dosya Yönetimi -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Index", "FileManagement")">
+                Dosya Yönetimi
+            </a>
+        </li>
+
+        <!-- SMS Gönderimi -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Send", "SMS")">
+                SMS Gönderimi
+            </a>
+        </li>
+
+        <!-- Servisler -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("GetAllServices", "ApiServices")">
+                Servisler
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Status", "Services")">
+                Servis Durumu
+            </a>
+        </li>
+
+        <!-- İstatistikler -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Details", "Statistics")">
+                İstatistikler
+            </a>
+        </li>
+
+        <!-- Birimler -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Index", "MapUnits")">
+                Birimler
+            </a>
+        </li>
+
+        <!-- Web Servisleri -->
+        <li class="nav-item">
+            <a class="nav-link text-white" href="@Url.Action("Status", "WebServices")">
+                Web Servisleri
+            </a>
+        </li>
+    </ul>
+</nav>

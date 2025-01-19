@@ -1,0 +1,42 @@
+
+@model SystemPanel.Models.SccmLog
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Log Details</h1>
+
+<div>
+    <h4>SccmLog</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Log ID
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Id
+        </dd>
+        <dt class="col-sm-2">
+            IP Address
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Ip
+        </dd>
+        <dt class="col-sm-2">
+            Date
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Tarih?.ToString("g")
+        </dd>
+        <dt class="col-sm-2">
+            Log Details
+        </dt>
+        <dd class="col-sm-10">
+            @Model.ScLog
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>

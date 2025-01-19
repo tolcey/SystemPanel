@@ -1,0 +1,32 @@
+﻿@model IEnumerable<SystemPanel.Models.DpServerInfo>
+
+<h2>Distribution Point (DP) Sunucuları ve Servis Durumları</h2>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Server Name</th>
+            <th>IP Address</th>
+            <th>Service Name</th>
+            <th>State</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dp in Model)
+        {
+            @foreach (var service in dp.Services)
+            {
+                <tr>
+                    <td>@dp.ServerName</td>
+                    <td>@dp.IpAddress</td>
+                    <td>@service.ServiceName</td>
+                    <td class="@(service.State == "Running" ? "text-success" : "text-danger")">
+                        @service.State
+                    </td>
+                    <td>@service.Status</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

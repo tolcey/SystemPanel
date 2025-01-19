@@ -1,0 +1,125 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@model SystemPanel.Models.ServerMetrics;
+
+
+@{
+    ViewData["Title"] = "Sunucu İzleme";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Sunucu İzleme Gösterge Paneli</h2>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h5 class="card-title">CPU Kullanımı</h5>
+                    <p class="card-text" id="cpuUsage">@Model.CpuUsage %</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <h5 class="card-title">RAM Kullanımı</h5>
+                    <p class="card-text" id="memoryUsage">@Model.MemoryUsage %</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-white bg-warning">
+                <div class="card-body">
+                    <h5 class="card-title">Disk Kullanımı</h5>
+                    <p class="card-text" id="diskUsage">@Model.DiskUsage %</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-white bg-danger">
+                <div class="card-body">
+                    <h5 class="card-title">Ağ Kullanımı</h5>
+                    <p class="card-text" id="networkUsage">@Model.NetworkUsage %</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <canvas id="performanceChart"></canvas>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.12/signalr.min.js"></script>
+    <script>
+        // SignalR bağlantısını başlat
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/monitoringHub")
+            .build();
+
+        connection.on("UpdateMetrics", (metrics) => {
+            document.getElementById("cpuUsage").innerText = metrics.cpuUsage + " %";
+            document.getElementById("memoryUsage").innerText = metrics.memoryUsage + " %";
+            document.getElementById("diskUsage").innerText = metrics.diskUsage + " %";
+            document.getElementById("networkUsage").innerText = metrics.networkUsage + " %";
+
+            updateChart(metrics);
+        });
+
+        connection.start().catch(err => console.error(err));
+
+        // Grafik
+        const ctx = document.getElementById("performanceChart").getContext("2d");
+        const performanceChart = new Chart(ctx, {
+            type: "line",
+            data: {
+                labels: [],
+                datasets: [
+                    { label: "CPU (%)", data: [], borderColor: "rgba(54, 162, 235, 1)", borderWidth: 2, fill: false },
+                    { label: "RAM (%)", data: [], borderColor: "rgba(75, 192, 192, 1)", borderWidth: 2, fill: false },
+                    { label: "Disk (%)", data: [], borderColor: "rgba(255, 206, 86, 1)", borderWidth: 2, fill: false },
+                    { label: "Ağ (%)", data: [], borderColor: "rgba(255, 99, 132, 1)", borderWidth: 2, fill: false }
+                ]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: { beginAtZero: true },
+                    y: { beginAtZero: true, max: 100 }
+                }
+            }
+        });
+
+        function updateChart(metrics) {
+            const now = new Date().toLocaleTimeString();
+            performanceChart.data.labels.push(now);
+
+            if (performanceChart.data.labels.length > 10) {
+                performanceChart.data.labels.shift();
+            }
+
+            performanceChart.data.datasets[0].data.push(metrics.cpuUsage);
+            performanceChart.data.datasets[1].data.push(metrics.memoryUsage);
+            performanceChart.data.datasets[2].data.push(metrics.diskUsage);
+            performanceChart.data.datasets[3].data.push(metrics.networkUsage);
+
+            if (performanceChart.data.datasets[0].data.length > 10) {
+                performanceChart.data.datasets.forEach(dataset => dataset.data.shift());
+            }
+
+            performanceChart.update();
+        }
+    </script>
+}

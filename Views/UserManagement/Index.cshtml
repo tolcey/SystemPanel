@@ -1,0 +1,61 @@
+﻿@model SystemPanel.ViewModels.User.UserManagementViewModel
+@{
+    ViewData["Title"] = "Kullanıcı Yönetimi";
+}
+
+<h2>Kullanıcılar</h2>
+
+<h3>Identity Kullanıcıları</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Kullanıcı Adı</th>
+            <th>Email</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.IdentityUsers)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>
+                    <a href="@Url.Action("Edit", "UserManagement", new { id = user.Id, isAdUser = false })">Düzenle</a>
+                    <form method="post" action="@Url.Action("Delete", "UserManagement")">
+                        <input type="hidden" name="id" value="@user.Id" />
+                        <button type="submit">Sil</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>AD Kullanıcıları</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Kullanıcı Adı</th>
+            <th>Email</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.AdUsers)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>
+                    <a href="@Url.Action("Edit", "UserManagement", new { id = user.UserName, isAdUser = true })">Düzenle</a>
+                    <form method="post" action="@Url.Action("Delete", "UserManagement")">
+                        <input type="hidden" name="id" value="@user.UserName" />
+                        <input type="hidden" name="isAdUser" value="true" />
+                        <button type="submit">Sil</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

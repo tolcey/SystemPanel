@@ -1,0 +1,11 @@
+﻿@model SystemPanel.Models.Duyuru
+
+<h5>@Model.Turu</h5>
+<p><strong>Birim:</strong> @Model.Birimi</p>
+<p><strong>Detay:</strong> @Model.Detay</p>
+<p><strong>Kayıt Tarihi:</strong> @Model.KayitTarihi?.ToString("dd MMM yyyy")</p>
+
+@if (!string.IsNullOrEmpty(Model.Resim1))
+{
+    <img src="@Model.Resim1" alt="Duyuru Resmi" class="img-fluid" />
+}

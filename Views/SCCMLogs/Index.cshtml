@@ -1,0 +1,54 @@
+
+@model IEnumerable<SystemPanel.Models.SccmLog>
+
+@{
+    ViewData["Title"] = "SCCM Log List";
+}
+
+<h1>SCCM Logs</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Log ID
+            </th>
+            <th>
+                IP Address
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Log Details
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Id
+                </td>
+                <td>
+                    @item.Ip
+                </td>
+                <td>
+                    @item.Tarih?.ToString("g")
+                </td>
+                <td>
+                    @item.ScLog?.Substring(0, Math.Min(item.ScLog.Length, 50))...
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">View Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Create" class="btn btn-primary">Add New Log</a>
+</div>

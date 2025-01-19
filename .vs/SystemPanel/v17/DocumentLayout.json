@@ -1,0 +1,940 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\models\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:models\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Migrations\\20250117143055_RenameLogsField.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250117143055_RenameLogsField.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Migrations\\20250117143027_AddLogEntriesTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250117143027_AddLogEntriesTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\filemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\filemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\services\\filemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:services\\filemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\filemanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\filemanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\servermonitoringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\servermonitoringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\viewmodels\\user\\identityuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:viewmodels\\user\\identityuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\servermonitoring\\status.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\servermonitoring\\status.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\servermonitoring\\createserver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\servermonitoring\\createserver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\duyurular\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\duyurular\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\viewmodels\\user\\usermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:viewmodels\\user\\usermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\viewmodels\\aduser\\aduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:viewmodels\\aduser\\aduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\viewmodels\\user\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:viewmodels\\user\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\viewmodels\\user\\userdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:viewmodels\\user\\userdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\usermanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\usermanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\usermanagement\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\usermanagement\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\aduser\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\aduser\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\viewmodels\\aduser\\editaduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:viewmodels\\aduser\\editaduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\viewmodels\\aduser\\createaduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:viewmodels\\aduser\\createaduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\viewmodels\\user\\editidentityuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:viewmodels\\user\\editidentityuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\aduser\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\aduser\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\usermanagement\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\usermanagement\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\aduser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\aduser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\aduser\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\aduser\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\services\\aduserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:services\\aduserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\adusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\adusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\models\\aduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:models\\aduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\duyurularcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\duyurularcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\mapunitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\mapunitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\usermanagement\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\usermanagement\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\identityusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\identityusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\logs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\logs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\apiservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\apiservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\gpo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\gpo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\gpo\\creategpo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\gpo\\creategpo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\controllers\\gpocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:controllers\\gpocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\services\\gposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:services\\gposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\services\\identityuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:services\\identityuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SystemPanelData/PanelAdmin/SqlTable/dbo.MapUnits.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SystemPanelData/PanelAdmin/SqlTable/dbo.Smsler.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|c:\\users\\tolga\\desktop\\systempanel\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBBBF011-5A04-4A88-A2FC-80B0FBB08F43}|SystemPanel.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TOLGA\\AppData\\Roaming\\Microsoft\\UserSecrets\\e848b005-c16a-4c28-8e65-4861c3cba9ed\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAGwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:18:25.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogEntry.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Models\\LogEntry.cs",
+              "RelativeDocumentMoniker": "Models\\LogEntry.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Models\\LogEntry.cs",
+              "RelativeToolTip": "Models\\LogEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:24:45.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250117143055_RenameLogsField.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Migrations\\20250117143055_RenameLogsField.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250117143055_RenameLogsField.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Migrations\\20250117143055_RenameLogsField.cs",
+              "RelativeToolTip": "Migrations\\20250117143055_RenameLogsField.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAhwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:30:55.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:40:36.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T06:55:38.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogService.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Services\\LogService.cs",
+              "RelativeDocumentMoniker": "Services\\LogService.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Services\\LogService.cs",
+              "RelativeToolTip": "Services\\LogService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:23:37.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\LogController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LogController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\LogController.cs",
+              "RelativeToolTip": "Controllers\\LogController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:38:09.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Status.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\ServerMonitoring\\Status.cshtml",
+              "RelativeDocumentMoniker": "Views\\ServerMonitoring\\Status.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\ServerMonitoring\\Status.cshtml",
+              "RelativeToolTip": "Views\\ServerMonitoring\\Status.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIApwBAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T06:43:11.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServerMonitoringController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\ServerMonitoringController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServerMonitoringController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\ServerMonitoringController.cs",
+              "RelativeToolTip": "Controllers\\ServerMonitoringController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAApwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T06:47:54.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FileManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\FileManagementController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileManagementController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\FileManagementController.cs",
+              "RelativeToolTip": "Controllers\\FileManagementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:34:55.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250117143027_AddLogEntriesTable.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Migrations\\20250117143027_AddLogEntriesTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250117143027_AddLogEntriesTable.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Migrations\\20250117143027_AddLogEntriesTable.cs",
+              "RelativeToolTip": "Migrations\\20250117143027_AddLogEntriesTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:30:27.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FileModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Models\\FileModel.cs",
+              "RelativeDocumentMoniker": "Models\\FileModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Models\\FileModel.cs",
+              "RelativeToolTip": "Models\\FileModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:38:31.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAIAnwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:55:59.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\FileManagement\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\FileManagement\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\FileManagement\\Index.cshtml",
+              "RelativeToolTip": "Views\\FileManagement\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T13:36:21.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Services\\FileManagementService.cs",
+              "RelativeDocumentMoniker": "Services\\FileManagementService.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Services\\FileManagementService.cs",
+              "RelativeToolTip": "Services\\FileManagementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIApwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:39:50.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateServer.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\ServerMonitoring\\CreateServer.cshtml",
+              "RelativeDocumentMoniker": "Views\\ServerMonitoring\\CreateServer.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\ServerMonitoring\\CreateServer.cshtml",
+              "RelativeToolTip": "Views\\ServerMonitoring\\CreateServer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T06:42:43.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\User\\CreateUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\User\\CreateUserViewModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\User\\CreateUserViewModel.cs",
+              "RelativeToolTip": "ViewModels\\User\\CreateUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:07:14.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IdentityUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\User\\IdentityUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\User\\IdentityUserViewModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\User\\IdentityUserViewModel.cs",
+              "RelativeToolTip": "ViewModels\\User\\IdentityUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:12:42.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\AdUser\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdUser\\Create.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\AdUser\\Create.cshtml",
+              "RelativeToolTip": "Views\\AdUser\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T09:06:11.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\UserManagement\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserManagement\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\UserManagement\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\UserManagement\\EditUser.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIApwBcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T13:10:22.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Duyurular\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Duyurular\\Create.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Duyurular\\Create.cshtml",
+              "RelativeToolTip": "Views\\Duyurular\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T10:29:47.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\AdUser\\AdUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdUser\\AdUserViewModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\AdUser\\AdUserViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdUser\\AdUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:59:22.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:52:51.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserManagementViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\User\\UserManagementViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\User\\UserManagementViewModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\User\\UserManagementViewModel.cs",
+              "RelativeToolTip": "ViewModels\\User\\UserManagementViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T08:46:50.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\UserManagement\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserManagement\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\UserManagement\\Index.cshtml",
+              "RelativeToolTip": "Views\\UserManagement\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwDwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T10:27:39.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\User\\UserDetailViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\User\\UserDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\User\\UserDetailViewModel.cs",
+              "RelativeToolTip": "ViewModels\\User\\UserDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:25:49.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EditAdUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\AdUser\\EditAdUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdUser\\EditAdUserViewModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\AdUser\\EditAdUserViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdUser\\EditAdUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:05:09.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateAdUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\AdUser\\CreateAdUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdUser\\CreateAdUserViewModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\AdUser\\CreateAdUserViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdUser\\CreateAdUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:57:55.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditIdentityUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\User\\EditIdentityUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\User\\EditIdentityUserViewModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\User\\EditIdentityUserViewModel.cs",
+              "RelativeToolTip": "ViewModels\\User\\EditIdentityUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T07:21:57.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\AdUser\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdUser\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\AdUser\\Edit.cshtml",
+              "RelativeToolTip": "Views\\AdUser\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T12:54:40.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\UserManagement\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserManagement\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\UserManagement\\CreateUser.cshtml",
+              "RelativeToolTip": "Views\\UserManagement\\CreateUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T09:05:22.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\AdUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdUser\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\AdUser\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdUser\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T12:57:12.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\AdUser\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdUser\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\AdUser\\Delete.cshtml",
+              "RelativeToolTip": "Views\\AdUser\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T12:55:43.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\UserManagementController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserManagementController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\UserManagementController.cs",
+              "RelativeToolTip": "Controllers\\UserManagementController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:28:12.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AdUserController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\AdUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdUserController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\AdUserController.cs",
+              "RelativeToolTip": "Controllers\\AdUserController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:44:26.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAGwBMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:52:49.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:38:55.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MapUnitsController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\MapUnitsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MapUnitsController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\MapUnitsController.cs",
+              "RelativeToolTip": "Controllers\\MapUnitsController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:52:09.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AdUser.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Models\\AdUser.cs",
+              "RelativeDocumentMoniker": "Models\\AdUser.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Models\\AdUser.cs",
+              "RelativeToolTip": "Models\\AdUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:54:57.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdUserService.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Services\\AdUserService.cs",
+              "RelativeDocumentMoniker": "Services\\AdUserService.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Services\\AdUserService.cs",
+              "RelativeToolTip": "Services\\AdUserService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:30:44.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DuyurularController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\DuyurularController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DuyurularController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\DuyurularController.cs",
+              "RelativeToolTip": "Controllers\\DuyurularController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAqwIcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:58:14.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IdentityUserController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\IdentityUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IdentityUserController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\IdentityUserController.cs",
+              "RelativeToolTip": "Controllers\\IdentityUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:45:12.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\UserManagement\\UserList.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserManagement\\UserList.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\UserManagement\\UserList.cshtml",
+              "RelativeToolTip": "Views\\UserManagement\\UserList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T10:46:26.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Logs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Logs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Logs\\Index.cshtml",
+              "RelativeToolTip": "Views\\Logs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T10:28:02.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ApiServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\ApiServicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiServicesController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\ApiServicesController.cs",
+              "RelativeToolTip": "Controllers\\ApiServicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:17:33.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Gpo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gpo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Gpo\\Index.cshtml",
+              "RelativeToolTip": "Views\\Gpo\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T08:57:55.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateGpo.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Gpo\\CreateGpo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gpo\\CreateGpo.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Gpo\\CreateGpo.cshtml",
+              "RelativeToolTip": "Views\\Gpo\\CreateGpo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T08:57:45.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GpoController.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\GpoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GpoController.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Controllers\\GpoController.cs",
+              "RelativeToolTip": "Controllers\\GpoController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T08:57:28.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GpoService.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Services\\GpoService.cs",
+              "RelativeDocumentMoniker": "Services\\GpoService.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Services\\GpoService.cs",
+              "RelativeToolTip": "Services\\GpoService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T08:57:10.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SettingsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\SettingsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SettingsViewModel.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\ViewModels\\SettingsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SettingsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T07:49:47.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IdentityUserService.cs",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Services\\IdentityUserService.cs",
+              "RelativeDocumentMoniker": "Services\\IdentityUserService.cs",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Services\\IdentityUserService.cs",
+              "RelativeToolTip": "Services\\IdentityUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:52:18.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAARwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T12:32:25.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "dbo.MapUnits.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SystemPanelData/PanelAdmin/SqlTable/dbo.MapUnits.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SystemPanelData/PanelAdmin/SqlTable/dbo.MapUnits.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-15T12:26:53.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T11:14:00.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T11:12:47.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\TOLGA\\AppData\\Roaming\\Microsoft\\UserSecrets\\e848b005-c16a-4c28-8e65-4861c3cba9ed\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\e848b005-c16a-4c28-8e65-4861c3cba9ed\\secrets.json",
+              "ToolTip": "C:\\Users\\TOLGA\\AppData\\Roaming\\Microsoft\\UserSecrets\\e848b005-c16a-4c28-8e65-4861c3cba9ed\\secrets.json",
+              "RelativeToolTip": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\e848b005-c16a-4c28-8e65-4861c3cba9ed\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T11:02:59.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "dbo.Smsler.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SystemPanelData/PanelAdmin/SqlTable/dbo.Smsler.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SystemPanelData/PanelAdmin/SqlTable/dbo.Smsler.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-15T11:18:07.395Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

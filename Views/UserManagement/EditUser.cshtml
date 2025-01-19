@@ -1,0 +1,26 @@
+﻿@model SystemPanel.ViewModels.User.EditIdentityUserViewModel
+
+@{
+    ViewData["Title"] = "Kullanıcıyı Düzenle";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label for="UserName" class="form-label">Kullanıcı Adı</label>
+        <input asp-for="UserName" class="form-control" id="UserName" />
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Email" class="form-label">E-posta</label>
+        <input asp-for="Email" class="form-control" id="Email" type="email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Kaydet</button>
+    <a href="/users" class="btn btn-secondary">İptal</a>
+</form>

@@ -1,0 +1,19 @@
+﻿@model SystemPanel.ViewModels.Logs.ClearLogsViewModel
+
+@{
+    ViewData["Title"] = "Logları Temizle";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="alert alert-warning" role="alert">
+    <h4 class="alert-heading">Logları Temizlemek Üzeresiniz!</h4>
+    <p>Bu işlem geri alınamaz. Tüm log kayıtları kalıcı olarak silinecektir.</p>
+    <hr>
+    <p class="mb-0">Devam etmek istediğinizden emin misiniz?</p>
+</div>
+
+<form asp-action="ClearLogs" method="post">
+    <button type="submit" class="btn btn-danger">Evet, Temizle</button>
+    <a href="/logs" class="btn btn-secondary">İptal</a>
+</form>

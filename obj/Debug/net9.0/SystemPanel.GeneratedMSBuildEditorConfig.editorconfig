@@ -1,0 +1,229 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SystemPanel
+build_property.RootNamespace = SystemPanel
+build_property.ProjectDir = C:\Users\TOLGA\Desktop\SystemPanel\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\TOLGA\Desktop\SystemPanel
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/403.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcNDAzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/AdUser/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRVc2VyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/AdUser/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRVc2VyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/AdUser/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRVc2VyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/AdUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRVc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Duyurular/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1bGFyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Duyurular/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1bGFyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Duyurular/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1bGFyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Duyurular/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1bGFyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Duyurular/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1bGFyXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Duyurular/_DuyuruDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1bGFyXF9EdXl1cnVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/FileManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZU1hbmFnZW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Gpo/CreateGpo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3BvXENyZWF0ZUdwby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Gpo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3BvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Logs/ClearLogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nc1xDbGVhckxvZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Logs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Logs/LogDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nc1xMb2dEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Logs/RelatedLogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nc1xSZWxhdGVkTG9ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/MapUnits/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwVW5pdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/SCCMLogs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0NDTUxvZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/SCCMLogs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0NDTUxvZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/SCCMLogs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0NDTUxvZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/SCCMLogs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0NDTUxvZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/SCCMLogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU0NDTUxvZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Sccm/Dps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NjbVxEcHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/ServerMonitoring/CreateServer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmVyTW9uaXRvcmluZ1xDcmVhdGVTZXJ2ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/ServerMonitoring/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmVyTW9uaXRvcmluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/ServerMonitoring/Status.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmVyTW9uaXRvcmluZ1xTdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Services/Status.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcU3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Settings/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcU2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/SMS/Send.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU01TXFNlbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Statistics/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Units/Computers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdHNcQ29tcHV0ZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/UserManagement/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/UserManagement/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcRGVsZXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/UserManagement/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/UserManagement/IdentityUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcSWRlbnRpdHlVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/UserManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/UserManagement/UserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcVXNlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/UserManagement/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcVXNlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOLGA/Desktop/SystemPanel/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fqd21v6ka9

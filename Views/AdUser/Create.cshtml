@@ -1,0 +1,17 @@
+﻿
+
+@model SystemPanel.ViewModels.AdUser.CreateAdUserViewModel
+
+<h2>AD Kullanıcısı Düzenle</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="DisplayName">Görünen Ad</label>
+        <input type="text" class="form-control" id="DisplayName" name="DisplayName" value="@Model.DisplayName" required />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+</form>

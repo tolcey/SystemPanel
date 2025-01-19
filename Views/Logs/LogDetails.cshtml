@@ -1,0 +1,35 @@
+﻿@model SystemPanel.ViewModels.Logs.LogDetailViewModel
+
+@{
+    ViewData["Title"] = "Log Detayları";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="card">
+    <div class="card-header">
+        <h3>Log ID: @Model.Id</h3>
+    </div>
+    <div class="card-body">
+        <p>
+            <strong>Seviye:</strong>
+            @if (Model.Level == "Error")
+            {
+                <span class="badge bg-danger">Hata</span>
+            }
+            else if (Model.Level == "Warning")
+            {
+                <span class="badge bg-warning">Uyarı</span>
+            }
+            else
+            {
+                <span class="badge bg-info">Bilgi</span>
+            }
+        </p>
+        <p><strong>Mesaj:</strong> @Model.Message</p>
+        <p><strong>Tarih:</strong> @Model.Timestamp.ToString("dd.MM.yyyy HH:mm")</p>
+    </div>
+    <div class="card-footer text-end">
+        <a href="/logs" class="btn btn-secondary">Loglara Geri Dön</a>
+    </div>
+</div>

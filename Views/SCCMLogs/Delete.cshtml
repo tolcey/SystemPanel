@@ -1,0 +1,25 @@
+@model SystemPanel.Models.SccmLog
+
+@{
+    ViewData["Title"] = "Delete Log";
+}
+
+<h1>Delete Log</h1>
+
+<h3>Are you sure you want to delete this log?</h3>
+<div>
+    <h4>SccmLog</h4>
+    <dl class="row">
+        <dt class="col-sm-2">IP Address</dt>
+        <dd class="col-sm-10">@Model.Ip</dd>
+        <dt class="col-sm-2">Date</dt>
+        <dd class="col-sm-10">@Model.Tarih?.ToString("yyyy-MM-dd HH:mm")</dd>
+        <dt class="col-sm-2">Log Details</dt>
+        <dd class="col-sm-10">@Model.ScLog</dd>
+    </dl>
+</div>
+<form asp-action="Delete">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

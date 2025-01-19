@@ -1,0 +1,353 @@
+[
+  {
+    "ContainingType": "SystemPanel.Controllers.MapUnitsController",
+    "Method": "GetCities",
+    "RelativePath": "api/map/cities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.MapUnitsController",
+    "Method": "GetCityDetail",
+    "RelativePath": "api/map/detail/{cityId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cityId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.MapUnitsController",
+    "Method": "GetCityStatuses",
+    "RelativePath": "api/map/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Api.Controllers.ApiServicesController",
+    "Method": "GetAllServices",
+    "RelativePath": "api/services",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Api.Controllers.ApiServicesController",
+    "Method": "StartService",
+    "RelativePath": "api/services/{id}/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Api.Controllers.ApiServicesController",
+    "Method": "StopService",
+    "RelativePath": "api/services/{id}/stop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.HomeController",
+    "Method": "DuyuruDetails",
+    "RelativePath": "Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.DuyurularController",
+    "Method": "Create",
+    "RelativePath": "Duyurular/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.DuyurularController",
+    "Method": "Create",
+    "RelativePath": "Duyurular/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Turu",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Birimi",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "KayitTarihi",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Detay",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Yazan",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resim1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resim2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resim3",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resim4",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.DuyurularController",
+    "Method": "Delete",
+    "RelativePath": "Duyurular/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.DuyurularController",
+    "Method": "DeleteSelected",
+    "RelativePath": "Duyurular/DeleteSelected",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "selectedIds",
+        "Type": "System.Int32[]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.DuyurularController",
+    "Method": "Details",
+    "RelativePath": "Duyurular/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.DuyurularController",
+    "Method": "Edit",
+    "RelativePath": "Duyurular/Edit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.DuyurularController",
+    "Method": "Edit",
+    "RelativePath": "Duyurular/Edit/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Turu",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Birimi",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "KayitTarihi",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Detay",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Yazan",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resim1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resim2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resim3",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resim4",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.DuyurularController",
+    "Method": "List",
+    "RelativePath": "Duyurular/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchText",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "typeFilter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.MapUnitsController",
+    "Method": "Index",
+    "RelativePath": "MapUnits",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.SccmController",
+    "Method": "Dps",
+    "RelativePath": "Sccm/dps",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemPanel.Controllers.SccmController",
+    "Method": "SystemStatus",
+    "RelativePath": "Sccm/SystemStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,26 @@
+﻿@model List<string>
+
+<h2>GPO Listesi</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>GPO Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var gpo in Model)
+        {
+            <tr>
+                <td>@gpo</td>
+                <td>
+                    <form action="@Url.Action("DeleteGpo", "Gpo")" method="post" style="display:inline;">
+                        <input type="hidden" name="gpoId" value="@gpo" />
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

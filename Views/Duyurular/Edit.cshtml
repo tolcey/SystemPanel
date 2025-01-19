@@ -1,0 +1,19 @@
+﻿@model SystemPanel.Models.Duyuru
+
+<h2>Duyuru Düzenle</h2>
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label for="Turu">Tür</label>
+        <input type="text" id="Turu" name="Turu" class="form-control" value="@Model.Turu" />
+    </div>
+    <div class="form-group">
+        <label for="Birimi">Birim</label>
+        <input type="text" id="Birimi" name="Birimi" class="form-control" value="@Model.Birimi" />
+    </div>
+    <div class="form-group">
+        <label for="Detay">Detay</label>
+        <textarea id="Detay" name="Detay" class="form-control">@Model.Detay</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Kaydet</button>
+    <a asp-action="List" class="btn btn-secondary">İptal</a>
+</form>

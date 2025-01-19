@@ -1,0 +1,1145 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SystemPanel.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SystemPanel.ns2j0ov9g3.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\indextree.css",
+      "PackagePath": "staticwebassets\\css\\indextree.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\jq.css",
+      "PackagePath": "staticwebassets\\css\\jq.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\theme-black.css",
+      "PackagePath": "staticwebassets\\css\\theme-black.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\theme-blue.css",
+      "PackagePath": "staticwebassets\\css\\theme-blue.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\theme-brown.css",
+      "PackagePath": "staticwebassets\\css\\theme-brown.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\css\\theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\css\\theme-white.css",
+      "PackagePath": "staticwebassets\\css\\theme-white.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\403.jpg",
+      "PackagePath": "staticwebassets\\img\\403.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\404.png",
+      "PackagePath": "staticwebassets\\img\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\505.jpg",
+      "PackagePath": "staticwebassets\\img\\505.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\Baƒlìksìz-2.png",
+      "PackagePath": "staticwebassets\\img\\Baƒlìksìz-2.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\Baƒlìksìz-2.psd",
+      "PackagePath": "staticwebassets\\img\\Baƒlìksìz-2.psd"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\EGMlogo.png",
+      "PackagePath": "staticwebassets\\img\\EGMlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\backgrounds\\wall_1.jpg",
+      "PackagePath": "staticwebassets\\img\\backgrounds\\wall_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\bg-dot.png",
+      "PackagePath": "staticwebassets\\img\\bg-dot.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\bg.png",
+      "PackagePath": "staticwebassets\\img\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\bgg.png",
+      "PackagePath": "staticwebassets\\img\\bgg.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\bggx.png",
+      "PackagePath": "staticwebassets\\img\\bggx.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\bilgi.png",
+      "PackagePath": "staticwebassets\\img\\bilgi.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\blueimp\\error.png",
+      "PackagePath": "staticwebassets\\img\\blueimp\\error.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\blueimp\\error.svg",
+      "PackagePath": "staticwebassets\\img\\blueimp\\error.svg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\blueimp\\loading.gif",
+      "PackagePath": "staticwebassets\\img\\blueimp\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\blueimp\\play-pause.png",
+      "PackagePath": "staticwebassets\\img\\blueimp\\play-pause.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\blueimp\\play-pause.svg",
+      "PackagePath": "staticwebassets\\img\\blueimp\\play-pause.svg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\blueimp\\video-play.png",
+      "PackagePath": "staticwebassets\\img\\blueimp\\video-play.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\blueimp\\video-play.svg",
+      "PackagePath": "staticwebassets\\img\\blueimp\\video-play.svg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\ceck3.png",
+      "PackagePath": "staticwebassets\\img\\ceck3.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\cevaplandi.png",
+      "PackagePath": "staticwebassets\\img\\cevaplandi.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\check.png",
+      "PackagePath": "staticwebassets\\img\\check.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\check2.png",
+      "PackagePath": "staticwebassets\\img\\check2.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\colorpicker\\alpha.png",
+      "PackagePath": "staticwebassets\\img\\colorpicker\\alpha.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\colorpicker\\hue.png",
+      "PackagePath": "staticwebassets\\img\\colorpicker\\hue.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\colorpicker\\saturation.png",
+      "PackagePath": "staticwebassets\\img\\colorpicker\\saturation.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\cpu.png",
+      "PackagePath": "staticwebassets\\img\\cpu.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\dikkat.png",
+      "PackagePath": "staticwebassets\\img\\dikkat.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\diy\\1_close.png",
+      "PackagePath": "staticwebassets\\img\\diy\\1_close.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\diy\\1_open.png",
+      "PackagePath": "staticwebassets\\img\\diy\\1_open.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\diy\\2.png",
+      "PackagePath": "staticwebassets\\img\\diy\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\diy\\3.png",
+      "PackagePath": "staticwebassets\\img\\diy\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\diy\\4.png",
+      "PackagePath": "staticwebassets\\img\\diy\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\diy\\5.png",
+      "PackagePath": "staticwebassets\\img\\diy\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\diy\\6.png",
+      "PackagePath": "staticwebassets\\img\\diy\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\diy\\7.png",
+      "PackagePath": "staticwebassets\\img\\diy\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\diy\\8.png",
+      "PackagePath": "staticwebassets\\img\\diy\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\diy\\9.png",
+      "PackagePath": "staticwebassets\\img\\diy\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\dropzone\\spritemap - Kopya.png",
+      "PackagePath": "staticwebassets\\img\\dropzone\\spritemap - Kopya.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\dropzone\\spritemap.png",
+      "PackagePath": "staticwebassets\\img\\dropzone\\spritemap.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\dropzone\\spritemap@2x.png",
+      "PackagePath": "staticwebassets\\img\\dropzone\\spritemap@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\duyuru1.png",
+      "PackagePath": "staticwebassets\\img\\duyuru1.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\duyuru_onemli.png",
+      "PackagePath": "staticwebassets\\img\\duyuru_onemli.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\duyuruu.gif",
+      "PackagePath": "staticwebassets\\img\\duyuruu.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\fileinput\\loading.gif",
+      "PackagePath": "staticwebassets\\img\\fileinput\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\application.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\application.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\code.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\code.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\css.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\css.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\db.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\db.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\directory.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\directory.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\doc.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\doc.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\file.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\file.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\film.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\film.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\flash.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\flash.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\folder_open.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\folder_open.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\html.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\html.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\java.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\java.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\linux.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\linux.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\music.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\music.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\pdf.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\pdf.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\php.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\php.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\picture.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\picture.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\ppt.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\ppt.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\psd.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\psd.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\ruby.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\ruby.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\script.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\script.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\spinner.gif",
+      "PackagePath": "staticwebassets\\img\\filetree\\spinner.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\txt.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\txt.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\xls.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\xls.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\filetree\\zip.png",
+      "PackagePath": "staticwebassets\\img\\filetree\\zip.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\gelen.png",
+      "PackagePath": "staticwebassets\\img\\gelen.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\giris_hata.png",
+      "PackagePath": "staticwebassets\\img\\giris_hata.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\havale.png",
+      "PackagePath": "staticwebassets\\img\\havale.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icheck\\grey.png",
+      "PackagePath": "staticwebassets\\img\\icheck\\grey.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icheck\\grey@2x.png",
+      "PackagePath": "staticwebassets\\img\\icheck\\grey@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icons\\csv.png",
+      "PackagePath": "staticwebassets\\img\\icons\\csv.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icons\\json.png",
+      "PackagePath": "staticwebassets\\img\\icons\\json.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icons\\pdf.png",
+      "PackagePath": "staticwebassets\\img\\icons\\pdf.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icons\\png.png",
+      "PackagePath": "staticwebassets\\img\\icons\\png.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icons\\ppt.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ppt.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icons\\sql.png",
+      "PackagePath": "staticwebassets\\img\\icons\\sql.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icons\\txt.png",
+      "PackagePath": "staticwebassets\\img\\icons\\txt.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icons\\word.png",
+      "PackagePath": "staticwebassets\\img\\icons\\word.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icons\\xls.png",
+      "PackagePath": "staticwebassets\\img\\icons\\xls.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\icons\\xml.png",
+      "PackagePath": "staticwebassets\\img\\icons\\xml.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\incelemede.png",
+      "PackagePath": "staticwebassets\\img\\incelemede.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\animated-overlay.gif",
+      "PackagePath": "staticwebassets\\img\\jquery\\animated-overlay.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\resize-icon.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\resize-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\resize-icon@2x.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\resize-icon@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-bg_diagonals-thick_18_b81900_40x40.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-bg_diagonals-thick_18_b81900_40x40.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-bg_diagonals-thick_20_666666_40x40.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-bg_diagonals-thick_20_666666_40x40.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-bg_flat_10_000000_40x100.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-bg_flat_10_000000_40x100.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-bg_glass_100_f6f6f6_1x400.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-bg_glass_100_f6f6f6_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-bg_glass_100_fdf5ce_1x400.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-bg_glass_100_fdf5ce_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-bg_glass_65_ffffff_1x400.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-bg_glass_65_ffffff_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-bg_gloss-wave_35_f6a828_500x100.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-bg_gloss-wave_35_f6a828_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-bg_highlight-soft_100_eeeeee_1x100.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-bg_highlight-soft_100_eeeeee_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-bg_highlight-soft_75_ffe45c_1x100.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-bg_highlight-soft_75_ffe45c_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-icons_222222_256x240.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-icons_222222_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-icons_228ef1_256x240.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-icons_228ef1_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-icons_ef8c08_256x240.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-icons_ef8c08_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-icons_ffd27a_256x240.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-icons_ffd27a_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\jquery\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\img\\jquery\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\kilitacik.png",
+      "PackagePath": "staticwebassets\\img\\kilitacik.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\line_conn.gif",
+      "PackagePath": "staticwebassets\\img\\line_conn.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\loader.gif",
+      "PackagePath": "staticwebassets\\img\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\loaders\\default.gif",
+      "PackagePath": "staticwebassets\\img\\loaders\\default.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\img\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\lock.png",
+      "PackagePath": "staticwebassets\\img\\lock.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\lock2.png",
+      "PackagePath": "staticwebassets\\img\\lock2.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\login-background.jpg",
+      "PackagePath": "staticwebassets\\img\\login-background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\logo-grey.png",
+      "PackagePath": "staticwebassets\\img\\logo-grey.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\logo-grey@2x.png",
+      "PackagePath": "staticwebassets\\img\\logo-grey@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\logo-small-grey.png",
+      "PackagePath": "staticwebassets\\img\\logo-small-grey.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\logo-small-grey@2x.png",
+      "PackagePath": "staticwebassets\\img\\logo-small-grey@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\logo-small.png",
+      "PackagePath": "staticwebassets\\img\\logo-small.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\logo-small@2x.png",
+      "PackagePath": "staticwebassets\\img\\logo-small@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\logo2.png",
+      "PackagePath": "staticwebassets\\img\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\logo3.png",
+      "PackagePath": "staticwebassets\\img\\logo3.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\logo@2x.png",
+      "PackagePath": "staticwebassets\\img\\logo@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\mesaj.png",
+      "PackagePath": "staticwebassets\\img\\mesaj.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\nakil.png",
+      "PackagePath": "staticwebassets\\img\\nakil.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\normal.png",
+      "PackagePath": "staticwebassets\\img\\normal.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\okundu.png",
+      "PackagePath": "staticwebassets\\img\\okundu.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\onayla.png",
+      "PackagePath": "staticwebassets\\img\\onayla.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\onemli.jpg",
+      "PackagePath": "staticwebassets\\img\\onemli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\openlock.png",
+      "PackagePath": "staticwebassets\\img\\openlock.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\owl\\AjaxLoader.gif",
+      "PackagePath": "staticwebassets\\img\\owl\\AjaxLoader.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\owl\\grabbing.png",
+      "PackagePath": "staticwebassets\\img\\owl\\grabbing.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\parola.png",
+      "PackagePath": "staticwebassets\\img\\parola.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\parolaa2.jpg",
+      "PackagePath": "staticwebassets\\img\\parolaa2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\pc1.png",
+      "PackagePath": "staticwebassets\\img\\pc1.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\pc2.png",
+      "PackagePath": "staticwebassets\\img\\pc2.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\png.png",
+      "PackagePath": "staticwebassets\\img\\png.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\rammm.png",
+      "PackagePath": "staticwebassets\\img\\rammm.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\resim.png",
+      "PackagePath": "staticwebassets\\img\\resim.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\restart.png",
+      "PackagePath": "staticwebassets\\img\\restart.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\restart2.png",
+      "PackagePath": "staticwebassets\\img\\restart2.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\restart3.png",
+      "PackagePath": "staticwebassets\\img\\restart3.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\servisler.png",
+      "PackagePath": "staticwebassets\\img\\servisler.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\sil.png",
+      "PackagePath": "staticwebassets\\img\\sil.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\sil2.png",
+      "PackagePath": "staticwebassets\\img\\sil2.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\sil3.png",
+      "PackagePath": "staticwebassets\\img\\sil3.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\sil5.png",
+      "PackagePath": "staticwebassets\\img\\sil5.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\standart.png",
+      "PackagePath": "staticwebassets\\img\\standart.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\system-management-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\system-management-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\tamam.png",
+      "PackagePath": "staticwebassets\\img\\tamam.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\tayin.png",
+      "PackagePath": "staticwebassets\\img\\tayin.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\tayinok.png",
+      "PackagePath": "staticwebassets\\img\\tayinok.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\tenor (1).gif",
+      "PackagePath": "staticwebassets\\img\\tenor (1).gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\tenor.gif",
+      "PackagePath": "staticwebassets\\img\\tenor.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\themes\\black.jpg",
+      "PackagePath": "staticwebassets\\img\\themes\\black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\themes\\blue.jpg",
+      "PackagePath": "staticwebassets\\img\\themes\\blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\themes\\brown.jpg",
+      "PackagePath": "staticwebassets\\img\\themes\\brown.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\themes\\default.jpg",
+      "PackagePath": "staticwebassets\\img\\themes\\default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\themes\\light.jpg",
+      "PackagePath": "staticwebassets\\img\\themes\\light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\tik.png",
+      "PackagePath": "staticwebassets\\img\\tik.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\tik1.png",
+      "PackagePath": "staticwebassets\\img\\tik1.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\yetkisiz.png",
+      "PackagePath": "staticwebassets\\img\\yetkisiz.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\yok.png",
+      "PackagePath": "staticwebassets\\img\\yok.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\yon.png",
+      "PackagePath": "staticwebassets\\img\\yon.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\zTreeStandard.gif",
+      "PackagePath": "staticwebassets\\img\\zTreeStandard.gif"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\img\\zTreeStandard.png",
+      "PackagePath": "staticwebassets\\img\\zTreeStandard.png"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TOLGA\\Desktop\\SystemPanel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SystemPanel.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SystemPanel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SystemPanel.props",
+      "PackagePath": "build\\SystemPanel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SystemPanel.props",
+      "PackagePath": "buildMultiTargeting\\SystemPanel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SystemPanel.props",
+      "PackagePath": "buildTransitive\\SystemPanel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
